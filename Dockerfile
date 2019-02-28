@@ -3,7 +3,7 @@ FROM lsiobase/alpine.python:3.9
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG SICKCHILL_RELEASE
+ARG SICKCHILL_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="homerr"
 
@@ -11,20 +11,21 @@ LABEL maintainer="homerr"
 ENV PYTHONIOENCODING="UTF-8"
 
 RUN \
- echo "**** upgrade packages ****" && \
- apk add --no-cache --upgrade && \
+echo "**** upgrade packages ****" && \
+apk add --no-cache --upgrade && \
 echo "**** fetch sickchill ****" && \
- mkdir -p\
+mkdir -p \
 	/app/sickchill && \
- if [ -z ${SICKCHILL_RELEASE}+x} ]; then \
- SICKCHILL_RELEASE=$(curl -sX GET "https://api.github.com/repos/sickchill/sickchill/releases/latest" \
-	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
- fi && \
- curl -o \
- /tmp/sickchill.tar.gz -L \
-	"https://github.com/sickchill/sickchill/archive/${SICKCHILL_RELEASE}.tar.gz" && \
- tar xf \
- /tmp/sickchill.tar.gz -C \
+if [ -z ${SICKCHILL_COMMIT}+x} ]; then \
+	SICKCHILL_COMMIT=$(curl -sX GET "https://api.github.com/repos/sickchill/sickchill/commits/master" \
+	| awk '/sha/{print $4;exit}' FS='[""]'); \
+fi && \
+echo "found ${SICKCHILL_COMMIT}" && \
+curl -o \
+/tmp/sickchill.tar.gz -L \
+	"https://github.com/sickchill/sickchill/archive/${SICKCHILL_COMMIT}.tar.gz" && \
+tar xf \
+	/tmp/sickchill.tar.gz -C \
 	/app/sickchill/ --strip-components=1
 
 # copy local files
