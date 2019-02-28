@@ -19,8 +19,8 @@ apk add --no-cache --upgrade && \
 echo "**** fetch sickchill ****" && \
 mkdir -p \
 	/app/sickchill && \
-if [ -z ${SICKCHILL_COMMIT}+x} ]; then \
-	SICKCHILL_COMMIT=$(curl -sX GET "https://api.github.com/repos/sickchill/sickchill/commits/master" \
+if [ -z ${SICKCHILL_COMMIT+x} ]; then \
+	SICKCHILL_COMMIT=$(curl -sX GET https://api.github.com/repos/sickchill/sickchill/commits/master \
 	| awk '/sha/{print $4;exit}' FS='[""]'); \
 fi && \
 echo "found ${SICKCHILL_COMMIT}" && \
