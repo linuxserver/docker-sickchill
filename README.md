@@ -39,7 +39,7 @@ The architectures supported by this image are:
 | :----: | --- |
 | x86-64 | amd64-latest |
 | arm64 | arm64v8-latest |
-| armhf | arm32v6-latest |
+| armhf | arm32v7-latest |
 
 
 ## Usage
@@ -169,4 +169,5 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **31.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **10.10.18:** - Initial Release.
