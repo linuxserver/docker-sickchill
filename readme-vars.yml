@@ -23,8 +23,6 @@ param_volumes:
   - { vol_path: "/tv", vol_host_path: "<path to data>", desc: "this will allow sickchill to view what you already have" }
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "PGID", env_value: "<yourUID>", desc: "specify your UID" }
-  - { env_var: "PUID", env_value: "<yourGID>", desc: "specify your GID" }
   - { env_var: "TZ", env_value: "<yourdbpass>", desc: "specify your TimeZone e.g. Europe/London" }
 
 param_usage_include_ports: true
