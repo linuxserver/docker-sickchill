@@ -53,8 +53,6 @@ docker create \
   --name=sickchill \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e PGID=<yourUID> \
-  -e PUID=<yourGID> \
   -e TZ=<yourdbpass> \
   -p 8081:8081 \
   -v <path to data>:/config \
@@ -79,8 +77,6 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - PGID=<yourUID>
-      - PUID=<yourGID>
       - TZ=<yourdbpass>
     volumes:
       - <path to data>:/config
@@ -100,8 +96,6 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8081` | will map the container's port 8081 to port 8081 on the host |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e PGID=<yourUID>` | specify your UID |
-| `-e PUID=<yourGID>` | specify your GID |
 | `-e TZ=<yourdbpass>` | specify your TimeZone e.g. Europe/London |
 | `-v /config` | this will store config on the docker host |
 | `-v /downloads` | this will store any downloaded data on the docker host |
