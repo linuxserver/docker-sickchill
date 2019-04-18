@@ -163,5 +163,6 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **17.04.19:** - Adding Nodejs dependancy.
 * **31.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **10.10.18:** - Initial Release.

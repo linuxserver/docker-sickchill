@@ -11,8 +11,10 @@ LABEL maintainer="homerr"
 ENV PYTHONIOENCODING="UTF-8"
 
 RUN \
-echo "**** upgrade packages ****" && \
-apk add --no-cache --upgrade && \
+echo "**** install packages ****" && \
+ apk add --no-cache --upgrade && \
+ apk add --no-cache \
+	nodejs && \
 echo "**** fetch sickchill ****" && \
 mkdir -p \
 	/app/sickchill && \
