@@ -3,7 +3,7 @@
 # project information
 project_name: sickchill
 project_url: "https://github.com/SickChill/SickChill"
-project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickrage-banner.png"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png"
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is an Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. 
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
