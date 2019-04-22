@@ -25,7 +25,7 @@ Find us at:
 [Sickchill](https://github.com/SickChill/SickChill) is an Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. 
 
 
-[![sickchill](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickrage-banner.png)](https://github.com/SickChill/SickChill)
+[![sickchill](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png)](https://github.com/SickChill/SickChill)
 
 ## Supported Architectures
 
