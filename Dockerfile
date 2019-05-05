@@ -15,6 +15,7 @@ echo "**** install packages ****" && \
  apk add --no-cache --upgrade && \
  apk add --no-cache \
 	nodejs && \
+	libxslt-dev && \
 echo "**** fetch sickchill ****" && \
 mkdir -p \
 	/app/sickchill && \
