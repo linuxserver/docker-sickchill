@@ -53,11 +53,11 @@ docker create \
   --name=sickchill \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=<yourdbpass> \
+  -e TZ=Europe/London \
   -p 8081:8081 \
-  -v <path to data>:/config \
-  -v <path to data>:/downloads \
-  -v <path to data>:/tv \
+  -v /path/to/data:/config \
+  -v /path/to/data:/downloads \
+  -v /path/to/data:/tv \
   --restart unless-stopped \
   linuxserver/sickchill
 ```
@@ -77,11 +77,11 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=<yourdbpass>
+      - TZ=Europe/London
     volumes:
-      - <path to data>:/config
-      - <path to data>:/downloads
-      - <path to data>:/tv
+      - /path/to/data:/config
+      - /path/to/data:/downloads
+      - /path/to/data:/tv
     ports:
       - 8081:8081
     restart: unless-stopped
@@ -96,7 +96,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8081` | will map the container's port 8081 to port 8081 on the host |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=<yourdbpass>` | specify your TimeZone e.g. Europe/London |
+| `-e TZ=Europe/London` | specify your TimeZone e.g. Europe/London |
 | `-v /config` | this will store config on the docker host |
 | `-v /downloads` | this will store any downloaded data on the docker host |
 | `-v /tv` | this will allow sickchill to view what you already have |
