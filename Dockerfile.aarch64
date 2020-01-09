@@ -3,7 +3,7 @@ FROM lsiobase/python:arm64v8-3.11
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG SICKCHILL_RELEASE
+ARG SICKCHILL_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="homerr"
 
@@ -35,4 +35,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 8081
-VOLUME /config /downloads /tv
+VOLUME /config
