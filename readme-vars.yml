@@ -36,6 +36,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "09.01.20:", desc: "Remove creating data volumes, fix build args for armhf and aarch64." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
   - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
   - { date: "17.04.19:", desc: "Adding Nodejs dependancy." }

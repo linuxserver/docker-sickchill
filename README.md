@@ -212,6 +212,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **09.01.20:** - Remove creating data volumes, fix build args for armhf and aarch64.
 * **19.12.19:** - Rebasing to alpine 3.11.
 * **28.06.19:** - Rebasing to alpine 3.10.
 * **17.04.19:** - Adding Nodejs dependancy.
