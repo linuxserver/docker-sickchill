@@ -40,7 +40,7 @@ ncurses-libs-6.1_p20191130-r0
 ncurses-terminfo-6.1_p20191130-r0
 ncurses-terminfo-base-6.1_p20191130-r0
 nghttp2-libs-1.40.0-r0
-nodejs-12.14.0-r0
+nodejs-12.15.0-r1
 openjpeg-2.3.1-r2
 openssl-1.1.1d-r2
 p7zip-16.02-r3
