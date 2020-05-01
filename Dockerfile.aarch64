@@ -3,7 +3,7 @@ FROM lsiobase/python:arm64v8-3.11
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG SICKCHILL_COMMIT
+ARG SICKCHILL_TAG
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="homerr"
 
@@ -11,24 +11,23 @@ LABEL maintainer="homerr"
 ENV PYTHONIOENCODING="UTF-8"
 
 RUN \
-echo "**** install packages ****" && \
+ echo "**** install packages ****" && \
  apk add --no-cache --upgrade && \
  apk add --no-cache \
+	git \
+	jq \
 	nodejs && \
-echo "**** fetch sickchill ****" && \
-mkdir -p \
+ echo "**** fetch sickchill ****" && \
+ mkdir -p \
 	/app/sickchill && \
-if [ -z ${SICKCHILL_COMMIT+x} ]; then \
-	SICKCHILL_COMMIT=$(curl -sX GET https://api.github.com/repos/sickchill/sickchill/commits/master \
-	| awk '/sha/{print $4;exit}' FS='[""]'); \
-fi && \
-echo "found ${SICKCHILL_COMMIT}" && \
-curl -o \
-/tmp/sickchill.tar.gz -L \
-	"https://github.com/sickchill/sickchill/archive/${SICKCHILL_COMMIT}.tar.gz" && \
-tar xf \
-	/tmp/sickchill.tar.gz -C \
-	/app/sickchill/ --strip-components=1
+ if [ -z ${SICKCHILL_TAG+x} ]; then \
+	SICKCHILL_TAG=$(curl -sX GET https://api.github.com/repos/SickChill/SickChill/tags \
+	| jq -r 'first(.[]) | .name'); \
+ fi && \
+ echo "found ${SICKCHILL_TAG}" && \
+ git clone https://github.com/SickChill/SickChill.git /app/sickchill && \
+ cd /app/sickchill && \
+ git checkout ${SICKCHILL_TAG}
 
 # copy local files
 COPY root/ /

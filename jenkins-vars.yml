@@ -2,15 +2,14 @@
 
 # jenkins variables
 project_name: docker-sickchill
-external_type: github_commit
+external_type: custom_json
 release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'sickchill'
-  - EXT_REPO = 'sickchill'
-  - BUILD_VERSION_ARG = 'SICKCHILL_COMMIT'
+  - JSON_URL = 'https://api.github.com/repos/SickChill/SickChill/tags'
+  - JSON_PATH = 'first(.[]) | .name'
+  - BUILD_VERSION_ARG = 'SICKCHILL_TAG'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-sickchill'
   - CONTAINER_NAME = 'sickchill'

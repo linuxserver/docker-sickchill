@@ -1,5 +1,21 @@
 #!/usr/bin/with-contenv bash
 
+# create symlinks
+mkdir -p /app/sickchill/gui/slick/cache
+symlinks=( \
+/app/sickchill/gui/slick/cache
+)
+for i in "${symlinks[@]}"; do
+	[[ "$(basename "$i")" == "config.php" && ! -L "$i" ]] && \
+		ln -s /config/"$(basename "$i")" "$i"
+	[[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]] && \
+		rm -Rf "$i" && \
+		ln -s /config/"$(basename "$i")" "$i"
+	[[ -e "$i" && ! -L "$i" ]] && \
+		mv "$i" /config/"$(basename "$i")" && \
+		ln -s /config/"$(basename "$i")" "$i"
+done
+
 # function to randomly sample 5 files for their owner and only chown if not abc
 chowner () {
 files=(${1}/*)
@@ -15,7 +31,6 @@ done
 # permissions
 echo "Setting permissions"
 abc_dirs=( \
-/app \
 /config \
 )
 for i in "${abc_dirs[@]}"; do
