@@ -1,7 +1,5 @@
 #!/usr/bin/with-contenv bash
 
-umask 022
-
 exec \
-	s6-setuidgid abc python /app/sickchill/SickBeard.py \
+	s6-setuidgid abc python3 /usr/bin/SickChill.py \
 	--datadir /config
