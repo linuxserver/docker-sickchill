@@ -3,7 +3,7 @@ FROM lsiobase/python:arm64v8-3.11
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG SICKCHILL_TAG
+ARG SICKCHILL_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="homerr"
 
@@ -11,23 +11,36 @@ LABEL maintainer="homerr"
 ENV PYTHONIOENCODING="UTF-8"
 
 RUN \
+ echo "**** install build packages ****" && \
+ apk add --no-cache --virtual=build-dependencies \
+	g++ \
+	gcc \
+	libffi-dev \
+	make \
+	openssl-dev \
+	python3-dev && \
  echo "**** install packages ****" && \
- apk add --no-cache --upgrade && \
  apk add --no-cache \
-	git \
-	jq \
-	nodejs && \
- echo "**** fetch sickchill ****" && \
- mkdir -p \
-	/app/sickchill && \
- if [ -z ${SICKCHILL_TAG+x} ]; then \
-	SICKCHILL_TAG=$(curl -sX GET https://api.github.com/repos/SickChill/SickChill/tags \
-	| jq -r 'first(.[]) | .name'); \
+	libmediainfo \
+	py3-pip \
+	python3 && \
+ echo "**** install sickchill ****" && \
+ if [ -z ${SICKCHILL_VERSION+x} ]; then \
+        SICKCHILL="sickchill"; \
+ else \
+        SICKCHILL="sickchill==${SICKCHILL_VERSION}"; \
  fi && \
- echo "found ${SICKCHILL_TAG}" && \
- git clone https://github.com/SickChill/SickChill.git /app/sickchill && \
- cd /app/sickchill && \
- git checkout ${SICKCHILL_TAG}
+ pip3 install -U \
+	pip && \
+ pip install -U \
+	"$SICKCHILL" && \
+ ln -s /usr/bin/python3 /usr/bin/python && \
+ echo "**** clean up ****" && \
+ apk del --purge \
+	build-dependencies && \
+ rm -rf \
+	/root/.cache \
+	/tmp/*
 
 # copy local files
 COPY root/ /

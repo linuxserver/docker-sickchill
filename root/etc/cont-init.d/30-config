@@ -1,6 +1,9 @@
 #!/usr/bin/with-contenv bash
 
 # create symlinks
+sitepackages=$(python3 -c "import sys; site_packages = next(p for p in sys.path if 'site-packages' in p); print (site_packages)")
+mkdir -p /app
+ln -s "${sitepackages}/sickchill" /app/sickchill
 mkdir -p /app/sickchill/gui/slick/cache
 symlinks=( \
 /app/sickchill/gui/slick/cache

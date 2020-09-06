@@ -16,9 +16,8 @@ pipeline {
     GITHUB_TOKEN=credentials('498b4638-2d02-4ce5-832d-8a57d01d97ab')
     GITLAB_TOKEN=credentials('b6f0f1dd-6952-4cf6-95d1-9c06380283f0')
     GITLAB_NAMESPACE=credentials('gitlab-namespace-id')
-    JSON_URL = 'https://api.github.com/repos/SickChill/SickChill/tags'
-    JSON_PATH = 'first(.[]) | .name'
-    BUILD_VERSION_ARG = 'SICKCHILL_TAG'
+    EXT_PIP = 'sickchill'
+    BUILD_VERSION_ARG = 'SICKCHILL_VERSION'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-sickchill'
     CONTAINER_NAME = 'sickchill'
@@ -57,7 +56,7 @@ pipeline {
           env.CODE_URL = 'https://github.com/' + env.LS_USER + '/' + env.LS_REPO + '/commit/' + env.GIT_COMMIT
           env.DOCKERHUB_LINK = 'https://hub.docker.com/r/' + env.DOCKERHUB_IMAGE + '/tags/'
           env.PULL_REQUEST = env.CHANGE_ID
-          env.TEMPLATED_FILES = 'Jenkinsfile README.md LICENSE ./.github/FUNDING.yml ./.github/ISSUE_TEMPLATE.md ./.github/PULL_REQUEST_TEMPLATE.md ./.github/workflows/greetings.yml ./.github/workflows/stale.yml'
+          env.TEMPLATED_FILES = 'Jenkinsfile README.md LICENSE ./.github/FUNDING.yml ./.github/ISSUE_TEMPLATE.md ./.github/PULL_REQUEST_TEMPLATE.md ./.github/workflows/greetings.yml ./.github/workflows/stale.yml ./root/donate.txt'
         }
         script{
           env.LS_RELEASE_NUMBER = sh(
@@ -100,18 +99,17 @@ pipeline {
     /* ########################
        External Release Tagging
        ######################## */
-    // If this is a custom json endpoint parse the return to get external tag
-    stage("Set ENV custom_json"){
-     steps{
-       script{
-         env.EXT_RELEASE = sh(
-           script: '''curl -s ${JSON_URL} | jq -r ". | ${JSON_PATH}" ''',
-           returnStdout: true).trim()
-         env.RELEASE_LINK = env.JSON_URL
-       }
-     }
-    }
-    // Sanitize the release tag and strip illegal docker or github characters
+    // If this is a pip release set the external tag to the pip version
+    stage("Set ENV pip_version"){
+      steps{
+        script{
+          env.EXT_RELEASE = sh(
+            script: '''curl -sL  https://pypi.python.org/pypi/${EXT_PIP}/json |jq -r '. | .info.version' ''',
+            returnStdout: true).trim()
+          env.RELEASE_LINK = 'https://pypi.python.org/pypi/' + env.EXT_PIP
+        }
+      }
+    }    // Sanitize the release tag and strip illegal docker or github characters
     stage("Sanitize tag"){
       steps{
         script{
@@ -664,11 +662,11 @@ pipeline {
              "tagger": {"name": "LinuxServer Jenkins","email": "jenkins@linuxserver.io","date": "'${GITHUB_DATE}'"}}' '''
         echo "Pushing New release for Tag"
         sh '''#! /bin/bash
-              echo "Data change at JSON endpoint ${JSON_URL}" > releasebody.json
+              echo "Updating PIP version of ${EXT_PIP} to ${EXT_RELEASE_CLEAN}" > releasebody.json
               echo '{"tag_name":"'${EXT_RELEASE_CLEAN}'-ls'${LS_TAG_NUMBER}'",\
                      "target_commitish": "master",\
                      "name": "'${EXT_RELEASE_CLEAN}'-ls'${LS_TAG_NUMBER}'",\
-                     "body": "**LinuxServer Changes:**\\n\\n'${LS_RELEASE_NOTES}'\\n**Remote Changes:**\\n\\n' > start
+                     "body": "**LinuxServer Changes:**\\n\\n'${LS_RELEASE_NOTES}'\\n**PIP Changes:**\\n\\n' > start
               printf '","draft": false,"prerelease": false}' >> releasebody.json
               paste -d'\\0' start releasebody.json > releasebody.json.done
               curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST https://api.github.com/repos/${LS_USER}/${LS_REPO}/releases -d @releasebody.json.done'''
