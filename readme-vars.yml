@@ -36,6 +36,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "17.09.20:", desc: "Update dependencies." }
   - { date: "06.09.20:", desc: "Switch to python3, install pip package." }
   - { date: "22.04.20:", desc: "Switch to git clone and using git tags for versioning." }
   - { date: "09.01.20:", desc: "Remove creating data volumes, fix build args for armhf and aarch64." }

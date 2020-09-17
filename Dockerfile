@@ -15,15 +15,19 @@ RUN \
  apk add --no-cache --virtual=build-dependencies \
 	g++ \
 	gcc \
+	git \
 	libffi-dev \
+	libxslt-dev \
 	make \
 	openssl-dev \
 	python3-dev && \
  echo "**** install packages ****" && \
  apk add --no-cache \
-	libmediainfo \
+	mediainfo \
+	libxslt \
 	py3-pip \
-	python3 && \
+	python3 \
+	unrar && \
  echo "**** install sickchill ****" && \
  if [ -z ${SICKCHILL_VERSION+x} ]; then \
         SICKCHILL="sickchill"; \
