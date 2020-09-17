@@ -23,7 +23,8 @@ RUN \
 	python3-dev && \
  echo "**** install packages ****" && \
  apk add --no-cache \
-	mediainfo \
+	libmediainfo \
+	libssl1.1 \
 	libxslt \
 	py3-pip \
 	python3 \
@@ -37,6 +38,7 @@ RUN \
  pip3 install -U \
 	pip && \
  pip install -U \
+	git+https://github.com/alberanid/imdbpy \
 	"$SICKCHILL" && \
  ln -s /usr/bin/python3 /usr/bin/python && \
  echo "**** clean up ****" && \
