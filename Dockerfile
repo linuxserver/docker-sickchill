@@ -15,15 +15,20 @@ RUN \
  apk add --no-cache --virtual=build-dependencies \
 	g++ \
 	gcc \
+	git \
 	libffi-dev \
+	libxslt-dev \
 	make \
 	openssl-dev \
 	python3-dev && \
  echo "**** install packages ****" && \
  apk add --no-cache \
 	libmediainfo \
+	libssl1.1 \
+	libxslt \
 	py3-pip \
-	python3 && \
+	python3 \
+	unrar && \
  echo "**** install sickchill ****" && \
  if [ -z ${SICKCHILL_VERSION+x} ]; then \
         SICKCHILL="sickchill"; \
@@ -33,6 +38,7 @@ RUN \
  pip3 install -U \
 	pip && \
  pip install -U \
+	git+https://github.com/alberanid/imdbpy \
 	"$SICKCHILL" && \
  ln -s /usr/bin/python3 /usr/bin/python && \
  echo "**** clean up ****" && \
