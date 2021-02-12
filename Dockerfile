@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.12
+FROM ghcr.io/linuxserver/baseimage-alpine:3.13
 
 # set version label
 ARG BUILD_DATE
@@ -13,6 +13,7 @@ ENV PYTHONIOENCODING="UTF-8"
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
+	cargo \
 	g++ \
 	gcc \
 	git \
@@ -38,7 +39,7 @@ RUN \
  pip3 install -U \
 	pip && \
  pip install -U \
-	git+https://github.com/alberanid/imdbpy \
+	certifi \
 	"$SICKCHILL" && \
  ln -s /usr/bin/python3 /usr/bin/python && \
  echo "**** clean up ****" && \
@@ -46,6 +47,7 @@ RUN \
 	build-dependencies && \
  rm -rf \
 	/root/.cache \
+	/root/.cargo \
 	/tmp/*
 
 # copy local files

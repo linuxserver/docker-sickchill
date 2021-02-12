@@ -225,6 +225,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **12.02.21:** - Rebasing to alpine 3.13. Add python certifi.
 * **17.09.20:** - Update dependencies.
 * **06.09.20:** - Switch to python3, install pip package.
 * **22.04.20:** - Switch to git clone and using git tags for versioning.

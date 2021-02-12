@@ -36,6 +36,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "12.02.21:", desc: "Rebasing to alpine 3.13. Add python certifi." }
   - { date: "17.09.20:", desc: "Update dependencies." }
   - { date: "06.09.20:", desc: "Switch to python3, install pip package." }
   - { date: "22.04.20:", desc: "Switch to git clone and using git tags for versioning." }
