@@ -36,6 +36,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "14.05.21:", desc: "Add linuxserver wheel index." }
   - { date: "12.02.21:", desc: "Rebasing to alpine 3.13. Add python certifi." }
   - { date: "17.09.20:", desc: "Update dependencies." }
   - { date: "06.09.20:", desc: "Switch to python3, install pip package." }

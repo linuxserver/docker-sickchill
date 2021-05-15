@@ -9,25 +9,25 @@ symlinks=( \
 /app/sickchill/gui/slick/cache
 )
 for i in "${symlinks[@]}"; do
-	[[ "$(basename "$i")" == "config.php" && ! -L "$i" ]] && \
-		ln -s /config/"$(basename "$i")" "$i"
-	[[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]] && \
-		rm -Rf "$i" && \
-		ln -s /config/"$(basename "$i")" "$i"
-	[[ -e "$i" && ! -L "$i" ]] && \
-		mv "$i" /config/"$(basename "$i")" && \
-		ln -s /config/"$(basename "$i")" "$i"
+    [[ "$(basename "$i")" == "config.php" && ! -L "$i" ]] && \
+        ln -s /config/"$(basename "$i")" "$i"
+    [[ -e "$i" && ! -L "$i" && -e /config/"$(basename "$i")" ]] && \
+        rm -Rf "$i" && \
+        ln -s /config/"$(basename "$i")" "$i"
+    [[ -e "$i" && ! -L "$i" ]] && \
+        mv "$i" /config/"$(basename "$i")" && \
+        ln -s /config/"$(basename "$i")" "$i"
 done
 
 # function to randomly sample 5 files for their owner and only chown if not abc
 chowner () {
 files=(${1}/*)
 for i in {1..5}; do
-        user=$(stat -c '%U' $(printf "%s\n" "${files[RANDOM % ${#files[@]}]}"))
-        if [ "${user}" != "abc" ]; then
-                chown -R abc:abc ${1}
-                break
-        fi
+    user=$(stat -c '%U' $(printf "%s\n" "${files[RANDOM % ${#files[@]}]}"))
+    if [ "${user}" != "abc" ]; then
+        chown -R abc:abc ${1}
+        break
+    fi
 done
 }
 
@@ -37,9 +37,9 @@ abc_dirs=( \
 /config \
 )
 for i in "${abc_dirs[@]}"; do
-        if [ "$(ls -A ${i})" ]; then
-                chowner ${i}
-        else
-                chown -R abc:abc ${i}
-        fi
+    if [ "$(ls -A ${i})" ]; then
+        chowner ${i}
+    else
+        chown -R abc:abc ${i}
+    fi
 done

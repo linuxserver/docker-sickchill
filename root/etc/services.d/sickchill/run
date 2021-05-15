@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv bash
 
 exec \
-	s6-setuidgid abc python3 /usr/bin/SickChill.py \
-	--datadir /config
+    s6-setuidgid abc python3 /usr/bin/SickChill.py \
+    --datadir /config
