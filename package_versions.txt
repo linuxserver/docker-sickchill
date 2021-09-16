@@ -14,10 +14,10 @@ libattr-2.4.48-r0
 libbz2-1.0.8-r1
 libc-utils-0.7.2-r3
 libcrypto1.1-1.1.1l-r0
-libcurl-7.78.0-r0
+libcurl-7.79.0-r0
 libffi-3.3-r2
 libgcc-10.2.1_pre1-r3
-libgcrypt-1.8.8-r0
+libgcrypt-1.8.8-r1
 libgpg-error-1.41-r0
 libintl-0.20.2-r2
 libmediainfo-20.09-r0
