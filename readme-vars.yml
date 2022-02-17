@@ -36,6 +36,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "17.02.22:", desc: "Rebase to alpine 3.15."}
   - { date: "20.11.21:", desc: "Modify binary usage from SickChill.py to SickChill."}
   - { date: "14.05.21:", desc: "Add linuxserver wheel index." }
   - { date: "12.02.21:", desc: "Rebasing to alpine 3.13. Add python certifi." }
