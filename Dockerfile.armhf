@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.13
+FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.15
 
 # set version label
 ARG BUILD_DATE
@@ -28,7 +28,8 @@ RUN \
     libssl1.1 \
     libxslt \
     py3-pip \
-    python3 \
+    python3 && \
+  apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.14/main \
     unrar && \
   echo "**** install sickchill ****" && \
   if [ -z ${SICKCHILL_VERSION+x} ]; then \
@@ -38,7 +39,7 @@ RUN \
   fi && \
   pip3 install -U \
     pip && \
-  pip install -U --find-links https://wheel-index.linuxserver.io/alpine/ \
+  pip install -U --find-links https://wheel-index.linuxserver.io/alpine-3.15/ \
     certifi \
     "$SICKCHILL" && \
   ln -s /usr/bin/python3 /usr/bin/python && \
