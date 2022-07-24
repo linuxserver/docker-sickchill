@@ -9,6 +9,7 @@ LABEL maintainer="homerr"
 
 # set python to use utf-8 rather than ascii
 ENV PYTHONIOENCODING="UTF-8"
+ENV HOME=/config
 
 RUN \
   echo "**** install build packages ****" && \
