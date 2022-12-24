@@ -1,0 +1,17 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+# create symlinks
+sitepackages=$(python -c "import site; print(site.getsitepackages()[0])")
+
+symlinks=(
+    "${sitepackages}"/sickchill/gui/slick/cache
+)
+for i in "${symlinks[@]}"; do
+    rm -rf "$i"
+    ln -s /config/"$(basename "$i")" "$i"
+done
+
+# permissions
+echo "Setting permissions"
+lsiown -R abc:abc /config
