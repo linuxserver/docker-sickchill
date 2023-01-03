@@ -48,7 +48,8 @@ RUN \
   python3 -m ensurepip && \
   pip3 install -U --no-cache-dir \
     pip \
-    wheel && \
+    wheel \
+    setuptools && \
   pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/ \
     certifi \
     sickchill=="${SICKCHILL_VERSION}" && \
