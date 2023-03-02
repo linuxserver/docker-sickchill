@@ -1,58 +1,144 @@
-alpine-baselayout-3.4.0-r0
-alpine-baselayout-data-3.4.0-r0
-alpine-keys-2.4-r1
-alpine-release-3.17.2-r0
-apk-tools-2.12.10-r1
-bash-5.2.15-r0
-brotli-libs-1.0.9-r9
-busybox-1.35.0-r29
-busybox-binsh-1.35.0-r29
-ca-certificates-20220614-r4
-ca-certificates-bundle-20220614-r4
-coreutils-9.1-r0
-curl-7.87.0-r2
-gdbm-1.23-r0
-jq-1.6-r2
-libacl-2.3.1-r1
-libattr-2.5.1-r2
-libbz2-1.0.8-r4
-libc-utils-0.7.2-r3
-libcrypto1.1-1.1.1t-r0
-libcrypto3-3.0.8-r0
-libcurl-7.87.0-r2
-libexpat-2.5.0-r0
-libffi-3.4.4-r0
-libgcc-12.2.1_git20220924-r4
-libgcrypt-1.10.1-r0
-libgpg-error-1.46-r1
-libintl-0.21.1-r1
-libmediainfo-22.09-r0
-libproc-3.3.17-r2
-libssl1.1-1.1.1t-r0
-libssl3-3.0.8-r0
-libstdc++-12.2.1_git20220924-r4
-libxml2-2.10.3-r1
-libxslt-1.1.37-r0
-libzen-0.4.39-r0
-linux-pam-1.5.2-r1
-mpdecimal-2.5.1-r1
-musl-1.2.3-r4
-musl-utils-1.2.3-r4
-ncurses-libs-6.3_p20221119-r0
-ncurses-terminfo-base-6.3_p20221119-r0
-nghttp2-libs-1.51.0-r0
-oniguruma-6.9.8-r0
-procps-3.3.17-r2
-python3-3.10.10-r0
-readline-8.2.0-r0
-scanelf-1.3.5-r1
-shadow-4.13-r0
-skalibs-2.12.0.1-r0
-sqlite-libs-3.40.1-r0
-ssl_client-1.35.0-r29
-tinyxml2-9.0.0-r0
-tzdata-2022f-r1
-utmps-libs-0.1.2.0-r1
-xz-5.2.9-r0
-xz-libs-5.2.9-r0
-zlib-1.2.13-r0
+NAME                    VERSION                TYPE   
+CacheControl            0.12.11                python  
+Deprecated              1.2.13                 python  
+IMDbPY                  2022.7.9               python  
+Mako                    1.2.4                  python  
+MarkupSafe              2.1.2                  python  
+PyGithub                1.58.0                 python  
+PyJWT                   2.6.0                  python  
+PyNMA                   1.0                    python  
+PyNaCl                  1.5.0                  python  
+SQLAlchemy              1.4.46                 python  
+Send2Trash              1.8.0                  python  
+Unidecode               1.3.6                  python  
+alpine-baselayout       3.4.0-r0               apk     
+alpine-baselayout-data  3.4.0-r0               apk     
+alpine-keys             2.4-r1                 apk     
+alpine-release          3.17.2-r0              apk     
+apk-tools               2.12.10-r1             apk     
+appdirs                 1.4.4                  python  
+babelfish               0.6.0                  python  
+bash                    5.2.15-r0              apk     
+beautifulsoup4          4.11.2                 python  
+beekeeper-alt           2022.9.3               python  
+bencode.py              4.0.0                  python  
+brotli-libs             1.0.9-r9               apk     
+busybox                 1.35.0                 binary  
+busybox                 1.35.0-r29             apk     
+busybox-binsh           1.35.0-r29             apk     
+ca-certificates         20220614-r4            apk     
+ca-certificates-bundle  20220614-r4            apk     
+certifi                 2022.12.7              python  
+cffi                    1.15.1                 python  
+chardet                 5.1.0                  python  
+charset-normalizer      3.0.1                  python  
+cinemagoer              2022.12.27             python  
+click                   8.1.3                  python  
+configobj               5.0.8                  python  
+coreutils               9.1-r0                 apk     
+cryptography            39.0.1                 python  
+curl                    7.88.1-r0              apk     
+decorator               5.1.1                  python  
+deluge-client           1.9.0                  python  
+dogpile.cache           1.1.8                  python  
+enzyme                  0.4.1                  python  
+future                  0.18.3                 python  
+gdbm                    1.23-r0                apk     
+gntp                    1.0.3                  python  
+greenlet                2.0.2                  python  
+guessit                 3.7.1                  python  
+idna                    3.4                    python  
+ifaddr                  0.2.0                  python  
+imagesize               1.4.1                  python  
+ipaddress               1.0.23                 python  
+jq                      1.6-r2                 apk     
+jsonrpclib-pelix        0.4.3.2                python  
+kodipydent-alt          2022.9.3               python  
+libacl                  2.3.1-r1               apk     
+libattr                 2.5.1-r2               apk     
+libbsd                  0.11.7-r0              apk     
+libbz2                  1.0.8-r4               apk     
+libc-utils              0.7.2-r3               apk     
+libcrypto1.1            1.1.1t-r0              apk     
+libcrypto3              3.0.8-r0               apk     
+libcurl                 7.88.1-r0              apk     
+libexpat                2.5.0-r0               apk     
+libffi                  3.4.4-r0               apk     
+libgcc                  12.2.1_git20220924-r4  apk     
+libgcrypt               1.10.1-r0              apk     
+libgpg-error            1.46-r1                apk     
+libintl                 0.21.1-r1              apk     
+libmd                   1.0.4-r0               apk     
+libmediainfo            22.09-r0               apk     
+libproc                 3.3.17-r2              apk     
+libssl1.1               1.1.1t-r0              apk     
+libssl3                 3.0.8-r0               apk     
+libstdc++               12.2.1_git20220924-r4  apk     
+libxml2                 2.10.3-r1              apk     
+libxslt                 1.1.37-r0              apk     
+libzen                  0.4.39-r0              apk     
+linux-pam               1.5.2-r1               apk     
+lxml                    4.9.2                  python  
+markdown2               2.4.8                  python  
+mpdecimal               2.5.1-r1               apk     
+msgpack                 1.0.4                  python  
+musl                    1.2.3-r4               apk     
+musl-utils              1.2.3-r4               apk     
+ncurses-libs            6.3_p20221119-r0       apk     
+ncurses-terminfo-base   6.3_p20221119-r0       apk     
+netcat-openbsd          1.130-r4               apk     
+new-rtorrent-python     1.0.1a0                python  
+nghttp2-libs            1.51.0-r0              apk     
+oauthlib                3.2.2                  python  
+oniguruma               6.9.8-r0               apk     
+packaging               22.0                   python  
+pbr                     5.11.1                 python  
+pip                     23.0.1                 python  
+procps                  3.3.17-r2              apk     
+profilehooks            1.12.0                 python  
+putio.py                8.7.0                  python  
+pyOpenSSL               23.0.0                 python  
+pycparser               2.21                   python  
+pysrt                   1.1.2                  python  
+python                  3.10.10                binary  
+python-dateutil         2.8.2                  python  
+python-slugify          7.0.0                  python  
+python-twitter          3.5                    python  
+python3                 3.10.10-r0             apk     
+python3-fanart          2.0.0                  python  
+pytz                    2022.7.1               python  
+qbittorrent-api         2022.11.40             python  
+rarfile                 4.0                    python  
+readline                8.2.0-r0               apk     
+rebulk                  3.2.0                  python  
+requests                2.28.2                 python  
+requests-oauthlib       1.3.1                  python  
+scanelf                 1.3.5-r1               apk     
+setuptools              65.5.0                 python  
+shadow                  4.13-r0                apk     
+sickchill               2023.1.2               python  
+six                     1.16.0                 python  
+skalibs                 2.12.0.1-r0            apk     
+soupsieve               2.4                    python  
+sqlite-libs             3.40.1-r0              apk     
+ssl_client              1.35.0-r29             apk     
+stevedore               5.0.0                  python  
+subliminal              2.1.0                  python  
+text-unidecode          1.3                    python  
+timeago                 1.0.16                 python  
+tinyxml2                9.0.0-r0               apk     
+tmdbsimple              2.9.1                  python  
+tornado                 6.2                    python  
+tus.py                  1.3.4                  python  
+tvdbsimple              1.0.6                  python  
+tzdata                  2022f-r1               apk     
+urllib3                 1.26.14                python  
+utmps-libs              0.1.2.0-r1             apk     
+validators              0.20.0                 python  
+wheel                   0.38.4                 python  
+win-inet-pton           1.1.0                  python  
+wrapt                   1.15.0                 python  
+xmltodict               0.13.0                 python  
+xz                      5.2.9-r0               apk     
+xz-libs                 5.2.9-r0               apk     
+zlib                    1.2.13-r0              apk     
