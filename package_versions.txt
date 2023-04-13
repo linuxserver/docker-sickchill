@@ -19,7 +19,7 @@ apk-tools               2.12.10-r1             apk
 appdirs                 1.4.4                  python  
 babelfish               0.6.0                  python  
 bash                    5.2.15-r0              apk     
-beautifulsoup4          4.12.1                 python  
+beautifulsoup4          4.12.2                 python  
 beekeeper-alt           2022.9.3               python  
 bencode.py              4.0.0                  python  
 brotli-libs             1.0.9-r9               apk     
@@ -74,7 +74,7 @@ libproc                 3.3.17-r2              apk
 libssl1.1               1.1.1t-r2              apk     
 libssl3                 3.0.8-r3               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
-libxml2                 2.10.3-r1              apk     
+libxml2                 2.10.4-r0              apk     
 libxslt                 1.1.37-r1              apk     
 libzen                  0.4.39-r0              apk     
 linux-pam               1.5.2-r1               apk     
