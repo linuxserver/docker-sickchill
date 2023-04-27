@@ -9,7 +9,7 @@ PyJWT                   2.6.0                  python
 PyNMA                   1.0                    python  
 PyNaCl                  1.5.0                  python  
 SQLAlchemy              1.4.47                 python  
-Send2Trash              1.8.0                  python  
+Send2Trash              1.8.2                  python  
 Unidecode               1.3.6                  python  
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
@@ -40,7 +40,7 @@ cryptography            40.0.2                 python
 curl                    8.0.1-r0               apk     
 decorator               5.1.1                  python  
 deluge-client           1.9.0                  python  
-dogpile.cache           1.1.8                  python  
+dogpile.cache           1.2.0                  python  
 enzyme                  0.4.1                  python  
 future                  0.18.3                 python  
 gdbm                    1.23-r0                apk     
@@ -60,7 +60,7 @@ libbsd                  0.11.7-r0              apk
 libbz2                  1.0.8-r4               apk     
 libc-utils              0.7.2-r3               apk     
 libcrypto1.1            1.1.1t-r2              apk     
-libcrypto3              3.0.8-r3               apk     
+libcrypto3              3.0.8-r4               apk     
 libcurl                 8.0.1-r0               apk     
 libexpat                2.5.0-r0               apk     
 libffi                  3.4.4-r0               apk     
@@ -72,7 +72,7 @@ libmd                   1.0.4-r0               apk
 libmediainfo            22.09-r0               apk     
 libproc                 3.3.17-r2              apk     
 libssl1.1               1.1.1t-r2              apk     
-libssl3                 3.0.8-r3               apk     
+libssl3                 3.0.8-r4               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libxml2                 2.10.4-r0              apk     
 libxslt                 1.1.37-r1              apk     
@@ -93,7 +93,7 @@ oauthlib                3.2.2                  python
 oniguruma               6.9.8-r0               apk     
 packaging               22.0                   python  
 pbr                     5.11.1                 python  
-pip                     23.1                   python  
+pip                     23.1.2                 python  
 procps                  3.3.17-r2              apk     
 profilehooks            1.12.0                 python  
 putio.py                8.7.0                  python  
@@ -111,7 +111,7 @@ qbittorrent-api         2022.11.40             python
 rarfile                 4.0                    python  
 readline                8.2.0-r0               apk     
 rebulk                  3.2.0                  python  
-requests                2.28.2                 python  
+requests                2.29.0                 python  
 requests-oauthlib       1.3.1                  python  
 scanelf                 1.3.5-r1               apk     
 setuptools              65.5.0                 python  
@@ -128,7 +128,7 @@ text-unidecode          1.3                    python
 timeago                 1.0.16                 python  
 tinyxml2                9.0.0-r0               apk     
 tmdbsimple              2.9.1                  python  
-tornado                 6.3                    python  
+tornado                 6.3.1                  python  
 tus.py                  1.3.4                  python  
 tvdbsimple              1.0.6                  python  
 tzdata                  2023c-r0               apk     
