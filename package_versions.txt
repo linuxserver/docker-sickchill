@@ -122,13 +122,13 @@ skalibs                 2.12.0.1-r0            apk
 soupsieve               2.4.1                  python  
 sqlite-libs             3.40.1-r0              apk     
 ssl_client              1.35.0-r29             apk     
-stevedore               5.0.0                  python  
+stevedore               5.1.0                  python  
 subliminal              2.1.0                  python  
 text-unidecode          1.3                    python  
 timeago                 1.0.16                 python  
 tinyxml2                9.0.0-r0               apk     
 tmdbsimple              2.9.1                  python  
-tornado                 6.3.1                  python  
+tornado                 6.3.2                  python  
 tus.py                  1.3.4                  python  
 tvdbsimple              1.0.6                  python  
 tzdata                  2023c-r0               apk     
