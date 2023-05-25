@@ -27,7 +27,7 @@ busybox                 1.35.0-r29             apk
 busybox-binsh           1.35.0-r29             apk     
 ca-certificates         20230506-r0            apk     
 ca-certificates-bundle  20230506-r0            apk     
-cacheyou                23.2                   python  
+cacheyou                23.3                   python  
 certifi                 2023.5.7               python  
 cffi                    1.15.1                 python  
 chardet                 5.1.0                  python  
