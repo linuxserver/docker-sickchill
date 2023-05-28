@@ -1,5 +1,5 @@
 NAME                    VERSION                TYPE   
-Deprecated              1.2.13                 python  
+Deprecated              1.2.14                 python  
 IMDbPY                  2022.7.9               python  
 Mako                    1.2.4                  python  
 MarkupSafe              2.1.2                  python  
@@ -37,7 +37,7 @@ click                   8.1.3                  python
 configobj               5.0.8                  python  
 coreutils               9.1-r0                 apk     
 cryptography            40.0.2                 python  
-curl                    8.1.0-r1               apk     
+curl                    8.1.1-r1               apk     
 decorator               5.1.1                  python  
 deluge-client           1.9.0                  python  
 dogpile.cache           1.2.1                  python  
@@ -61,7 +61,7 @@ libbz2                  1.0.8-r4               apk
 libc-utils              0.7.2-r3               apk     
 libcrypto1.1            1.1.1t-r2              apk     
 libcrypto3              3.0.8-r4               apk     
-libcurl                 8.1.0-r1               apk     
+libcurl                 8.1.1-r1               apk     
 libexpat                2.5.0-r0               apk     
 libffi                  3.4.4-r0               apk     
 libgcc                  12.2.1_git20220924-r4  apk     
@@ -84,8 +84,8 @@ mpdecimal               2.5.1-r1               apk
 msgpack                 1.0.5                  python  
 musl                    1.2.3-r5               apk     
 musl-utils              1.2.3-r5               apk     
-ncurses-libs            6.3_p20221119-r0       apk     
-ncurses-terminfo-base   6.3_p20221119-r0       apk     
+ncurses-libs            6.3_p20221119-r1       apk     
+ncurses-terminfo-base   6.3_p20221119-r1       apk     
 netcat-openbsd          1.130-r4               apk     
 new-rtorrent-python     1.0.1a0                python  
 nghttp2-libs            1.51.0-r0              apk     
@@ -116,7 +116,7 @@ requests-oauthlib       1.3.1                  python
 scanelf                 1.3.5-r1               apk     
 setuptools              65.5.0                 python  
 shadow                  4.13-r0                apk     
-sickchill               2023.5.24              python  
+sickchill               2023.5.28              python  
 six                     1.16.0                 python  
 skalibs                 2.12.0.1-r0            apk     
 soupsieve               2.4.1                  python  
@@ -131,7 +131,7 @@ tmdbsimple              2.9.1                  python
 tornado                 6.3.2                  python  
 tus.py                  1.3.4                  python  
 tvdbsimple              1.0.6                  python  
-typing_extensions       4.6.1                  python  
+typing_extensions       4.6.2                  python  
 tzdata                  2023c-r0               apk     
 urllib3                 2.0.2                  python  
 utmps-libs              0.1.2.0-r1             apk     
