@@ -107,7 +107,7 @@ python-twitter          3.5                    python
 python3                 3.10.11-r0             apk     
 python3-fanart          2.0.0                  python  
 pytz                    2023.3                 python  
-qbittorrent-api         2023.4.47              python  
+qbittorrent-api         2023.5.48              python  
 rarfile                 4.0                    python  
 readline                8.2.0-r0               apk     
 rebulk                  3.2.0                  python  
@@ -116,7 +116,7 @@ requests-oauthlib       1.3.1                  python
 scanelf                 1.3.5-r1               apk     
 setuptools              65.5.0                 python  
 shadow                  4.13-r0                apk     
-sickchill               2023.5.28              python  
+sickchill               2023.5.30              python  
 six                     1.16.0                 python  
 skalibs                 2.12.0.1-r0            apk     
 soupsieve               2.4.1                  python  
