@@ -36,7 +36,7 @@ cinemagoer              2023.5.1               python
 click                   8.1.3                  python  
 configobj               5.0.8                  python  
 coreutils               9.1-r0                 apk     
-cryptography            40.0.2                 python  
+cryptography            41.0.0                 python  
 curl                    8.1.1-r1               apk     
 decorator               5.1.1                  python  
 deluge-client           1.9.0                  python  
@@ -59,8 +59,8 @@ libattr                 2.5.1-r2               apk
 libbsd                  0.11.7-r0              apk     
 libbz2                  1.0.8-r4               apk     
 libc-utils              0.7.2-r3               apk     
-libcrypto1.1            1.1.1t-r2              apk     
-libcrypto3              3.0.8-r4               apk     
+libcrypto1.1            1.1.1u-r0              apk     
+libcrypto3              3.0.9-r1               apk     
 libcurl                 8.1.1-r1               apk     
 libexpat                2.5.0-r0               apk     
 libffi                  3.4.4-r0               apk     
@@ -71,8 +71,8 @@ libintl                 0.21.1-r1              apk
 libmd                   1.0.4-r0               apk     
 libmediainfo            22.09-r0               apk     
 libproc                 3.3.17-r2              apk     
-libssl1.1               1.1.1t-r2              apk     
-libssl3                 3.0.8-r4               apk     
+libssl1.1               1.1.1u-r0              apk     
+libssl3                 3.0.9-r1               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libxml2                 2.10.4-r0              apk     
 libxslt                 1.1.37-r1              apk     
@@ -97,7 +97,7 @@ pip                     23.1.2                 python
 procps                  3.3.17-r2              apk     
 profilehooks            1.12.0                 python  
 putio.py                8.7.0                  python  
-pyOpenSSL               23.1.1                 python  
+pyOpenSSL               23.2.0                 python  
 pycparser               2.21                   python  
 pysrt                   1.1.2                  python  
 python                  3.10.11                binary  
