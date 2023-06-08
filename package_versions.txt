@@ -2,7 +2,7 @@ NAME                    VERSION                TYPE
 Deprecated              1.2.14                 python  
 IMDbPY                  2022.7.9               python  
 Mako                    1.2.4                  python  
-MarkupSafe              2.1.2                  python  
+MarkupSafe              2.1.3                  python  
 PyGithub                1.58.2                 python  
 PyJWT                   2.7.0                  python  
 PyNMA                   1.0                    python  
@@ -36,8 +36,8 @@ cinemagoer              2023.5.1               python
 click                   8.1.3                  python  
 configobj               5.0.8                  python  
 coreutils               9.1-r0                 apk     
-cryptography            41.0.0                 python  
-curl                    8.1.1-r1               apk     
+cryptography            41.0.1                 python  
+curl                    8.1.2-r0               apk     
 decorator               5.1.1                  python  
 deluge-client           1.9.0                  python  
 dogpile.cache           1.2.1                  python  
@@ -61,7 +61,7 @@ libbz2                  1.0.8-r4               apk
 libc-utils              0.7.2-r3               apk     
 libcrypto1.1            1.1.1u-r0              apk     
 libcrypto3              3.0.9-r1               apk     
-libcurl                 8.1.1-r1               apk     
+libcurl                 8.1.2-r0               apk     
 libexpat                2.5.0-r0               apk     
 libffi                  3.4.4-r0               apk     
 libgcc                  12.2.1_git20220924-r4  apk     
@@ -131,9 +131,9 @@ tmdbsimple              2.9.1                  python
 tornado                 6.3.2                  python  
 tus.py                  1.3.4                  python  
 tvdbsimple              1.0.6                  python  
-typing_extensions       4.6.2                  python  
+typing_extensions       4.6.3                  python  
 tzdata                  2023c-r0               apk     
-urllib3                 2.0.2                  python  
+urllib3                 2.0.3                  python  
 utmps-libs              0.1.2.0-r1             apk     
 validators              0.20.0                 python  
 wheel                   0.40.0                 python  
