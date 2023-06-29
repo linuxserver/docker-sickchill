@@ -131,7 +131,7 @@ tmdbsimple              2.9.1                  python
 tornado                 6.3.2                  python  
 tus.py                  1.3.4                  python  
 tvdbsimple              1.0.6                  python  
-typing_extensions       4.6.3                  python  
+typing_extensions       4.7.0                  python  
 tzdata                  2023c-r0               apk     
 urllib3                 2.0.3                  python  
 utmps-libs              0.1.2.0-r1             apk     
