@@ -4,49 +4,43 @@
 project_name: sickchill
 project_url: "https://github.com/SickChill/SickChill"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png"
-project_blurb: |
-  [{{ project_name|capitalize }}]({{ project_url }}) is an Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. 
+project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is an Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. \n"
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "this will store config on the docker host" }
-  - { vol_path: "/downloads", vol_host_path: "/path/to/data", desc: "this will store any downloaded data on the docker host" }
-  - { vol_path: "/tv", vol_host_path: "/path/to/data", desc: "this will allow sickchill to view what you already have" }
+  - {vol_path: "/config", vol_host_path: "/path/to/data", desc: "this will store config on the docker host"}
+  - {vol_path: "/downloads", vol_host_path: "/path/to/data", desc: "this will store any downloaded data on the docker host"}
+  - {vol_path: "/tv", vol_host_path: "/path/to/data", desc: "this will allow sickchill to view what you already have"}
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "specify your TimeZone e.g. Europe/London" }
-
+  - {env_var: "TZ", env_value: "Europe/London", desc: "specify your TimeZone e.g. Europe/London"}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "8081", internal_port: "8081", port_desc: "will map the container's port 8081 to port 8081 on the host" }
-
+  - {external_port: "8081", internal_port: "8081", port_desc: "will map the container's port 8081 to port 8081 on the host"}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   Web interface is at `<your ip>:8081` , set paths for downloads, tv-shows to match docker mappings via the webui.
-
 # changelog
 changelogs:
-  - { date: "17.02.22:", desc: "Rebase to alpine 3.17."}
-  - { date: "17.02.22:", desc: "Rebase to alpine 3.15."}
-  - { date: "20.11.21:", desc: "Modify binary usage from SickChill.py to SickChill."}
-  - { date: "14.05.21:", desc: "Add linuxserver wheel index." }
-  - { date: "12.02.21:", desc: "Rebasing to alpine 3.13. Add python certifi." }
-  - { date: "17.09.20:", desc: "Update dependencies." }
-  - { date: "06.09.20:", desc: "Switch to python3, install pip package." }
-  - { date: "22.04.20:", desc: "Switch to git clone and using git tags for versioning." }
-  - { date: "09.01.20:", desc: "Remove creating data volumes, fix build args for armhf and aarch64." }
-  - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
-  - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
-  - { date: "17.04.19:", desc: "Adding Nodejs dependancy." }
-  - { date: "31.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
-  - { date: "10.10.18:", desc: "Initial Release." }
+  - {date: "06.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
+  - {date: "17.02.22:", desc: "Rebase to alpine 3.17."}
+  - {date: "17.02.22:", desc: "Rebase to alpine 3.15."}
+  - {date: "20.11.21:", desc: "Modify binary usage from SickChill.py to SickChill."}
+  - {date: "14.05.21:", desc: "Add linuxserver wheel index."}
+  - {date: "12.02.21:", desc: "Rebasing to alpine 3.13. Add python certifi."}
+  - {date: "17.09.20:", desc: "Update dependencies."}
+  - {date: "06.09.20:", desc: "Switch to python3, install pip package."}
+  - {date: "22.04.20:", desc: "Switch to git clone and using git tags for versioning."}
+  - {date: "09.01.20:", desc: "Remove creating data volumes, fix build args for armhf and aarch64."}
+  - {date: "19.12.19:", desc: "Rebasing to alpine 3.11."}
+  - {date: "28.06.19:", desc: "Rebasing to alpine 3.10."}
+  - {date: "17.04.19:", desc: "Adding Nodejs dependancy."}
+  - {date: "31.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag."}
+  - {date: "10.10.18:", desc: "Initial Release."}
