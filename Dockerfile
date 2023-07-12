@@ -46,10 +46,10 @@ RUN \
     SICKCHILL_VERSION=$(curl -sL  https://pypi.python.org/pypi/sickchill/json |jq -r '. | .info.version'); \
   fi && \
   python3 -m venv /lsiopy && \
-  pip3 install -U --no-cache-dir \
+  pip install -U --no-cache-dir \
     pip \
     wheel && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.18/ \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.18/ \
     certifi \
     sickchill=="${SICKCHILL_VERSION}" && \
   echo "**** clean up ****" && \
