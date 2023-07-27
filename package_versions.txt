@@ -28,7 +28,7 @@ busybox-binsh           1.36.1-r1               apk
 ca-certificates         20230506-r0             apk     
 ca-certificates-bundle  20230506-r0             apk     
 cacheyou                23.3                    python  
-certifi                 2023.5.7                python  
+certifi                 2023.7.22               python  
 cffi                    1.15.1                  python  
 chardet                 5.1.0                   python  
 charset-normalizer      3.2.0                   python  
@@ -37,7 +37,7 @@ click                   8.1.6                   python
 configobj               5.0.8                   python  
 coreutils               9.3-r1                  apk     
 cryptography            41.0.2                  python  
-curl                    8.1.2-r0                apk     
+curl                    8.2.0-r1                apk     
 decorator               5.1.1                   python  
 deluge-client           1.9.0                   python  
 dogpile.cache           1.2.2                   python  
@@ -61,7 +61,7 @@ libbz2                  1.0.8-r5                apk
 libc-utils              0.7.2-r5                apk     
 libcrypto1.1            1.1.1u-r1               apk     
 libcrypto3              3.1.1-r3                apk     
-libcurl                 8.1.2-r0                apk     
+libcurl                 8.2.0-r1                apk     
 libexpat                2.5.0-r1                apk     
 libffi                  3.4.4-r2                apk     
 libgcc                  12.2.1_git20220924-r10  apk     
@@ -83,7 +83,7 @@ libxslt                 1.1.38-r0               apk
 libzen                  0.4.41-r0               apk     
 linux-pam               1.5.2-r10               apk     
 lxml                    4.9.3                   python  
-markdown2               2.4.9                   python  
+markdown2               2.4.10                  python  
 mpdecimal               2.5.1-r2                apk     
 msgpack                 1.0.5                   python  
 musl                    1.2.4-r0                apk     
@@ -91,12 +91,12 @@ musl-utils              1.2.4-r0                apk
 ncurses-terminfo-base   6.4_p20230506-r0        apk     
 netcat-openbsd          1.219-r1                apk     
 new-rtorrent-python     1.0.1a0                 python  
-nghttp2-libs            1.53.0-r0               apk     
+nghttp2-libs            1.55.1-r0               apk     
 oauthlib                3.2.2                   python  
 oniguruma               6.9.8-r1                apk     
 packaging               23.1                    python  
 pbr                     5.11.1                  python  
-pip                     23.2                    python  
+pip                     23.2.1                  python  
 procps-ng               4.0.3-r1                apk     
 profilehooks            1.12.0                  python  
 putio.py                8.7.0                   python  
@@ -142,7 +142,7 @@ tzdata                  2023c-r1                apk
 urllib3                 2.0.4                   python  
 utmps-libs              0.1.2.1-r1              apk     
 validators              0.20.0                  python  
-wheel                   0.40.0                  python  
+wheel                   0.41.0                  python  
 win-inet-pton           1.1.0                   python  
 wrapt                   1.15.0                  python  
 xmltodict               0.13.0                  python  
