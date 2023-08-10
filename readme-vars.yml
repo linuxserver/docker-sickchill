@@ -29,6 +29,7 @@ app_setup_block: |
   Web interface is at `<your ip>:8081` , set paths for downloads, tv-shows to match docker mappings via the webui.
 # changelog
 changelogs:
+  - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - {date: "12.07.23:", desc: "Rebase to alpine 3.18."}
   - {date: "06.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "17.02.22:", desc: "Rebase to alpine 3.17."}
