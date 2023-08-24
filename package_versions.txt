@@ -33,7 +33,7 @@ cffi                        1.15.1                  python
 chardet                     5.2.0                   python  
 charset-normalizer          3.2.0                   python  
 cinemagoer                  2023.5.1                python  
-click                       8.1.6                   python  
+click                       8.1.7                   python  
 configobj                   5.0.8                   python  
 coreutils                   9.3-r1                  apk     
 cryptography                41.0.3                  python  
@@ -104,7 +104,6 @@ pyOpenSSL                   23.2.0                  python
 pyc                         0.1-r0                  apk     
 pycparser                   2.21                    python  
 pysrt                       1.1.2                   python  
-python                      3.11.4                  binary  
 python-dateutil             2.8.2                   python  
 python-slugify              8.0.1                   python  
 python-twitter              3.5                     python  
@@ -142,7 +141,7 @@ tzdata                      2023c-r1                apk
 urllib3                     2.0.4                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 validators                  0.20.0                  python  
-wheel                       0.41.1                  python  
+wheel                       0.41.2                  python  
 win-inet-pton               1.1.0                   python  
 wrapt                       1.15.0                  python  
 xmltodict                   0.13.0                  python  
