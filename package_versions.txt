@@ -107,10 +107,10 @@ pysrt                       1.1.2                   python
 python-dateutil             2.8.2                   python  
 python-slugify              8.0.1                   python  
 python-twitter              3.5                     python  
-python3                     3.11.4-r0               apk     
+python3                     3.11.5-r0               apk     
 python3-fanart              2.0.0                   python  
-python3-pyc                 3.11.4-r0               apk     
-python3-pycache-pyc0        3.11.4-r0               apk     
+python3-pyc                 3.11.5-r0               apk     
+python3-pycache-pyc0        3.11.5-r0               apk     
 pytz                        2023.3                  python  
 qbittorrent-api             2023.7.52               python  
 rarfile                     4.0                     python  
