@@ -112,7 +112,7 @@ python3-fanart              2.0.0                   python
 python3-pyc                 3.11.5-r0               apk     
 python3-pycache-pyc0        3.11.5-r0               apk     
 pytz                        2023.3.post1            python  
-qbittorrent-api             2023.7.52               python  
+qbittorrent-api             2023.9.53               python  
 rarfile                     4.0                     python  
 readline                    8.2.1-r1                apk     
 rebulk                      3.2.0                   python  
