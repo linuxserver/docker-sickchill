@@ -7,7 +7,7 @@ PyGithub                    1.59.1                  python
 PyJWT                       2.8.0                   python  
 PyNMA                       1.0                     python  
 PyNaCl                      1.5.0                   python  
-SQLAlchemy                  2.0.20                  python  
+SQLAlchemy                  2.0.21                  python  
 Send2Trash                  1.8.2                   python  
 Simple Launcher Executable  1.1.0.14                dotnet  
 Unidecode                   1.3.6                   python  
@@ -36,7 +36,7 @@ cinemagoer                  2023.5.1                python
 click                       8.1.7                   python  
 configobj                   5.0.8                   python  
 coreutils                   9.3-r1                  apk     
-cryptography                41.0.3                  python  
+cryptography                41.0.4                  python  
 curl                        8.2.1-r0                apk     
 decorator                   5.1.1                   python  
 deluge-client               1.9.0                   python  
@@ -60,7 +60,7 @@ libbsd                      0.11.7-r1               apk
 libbz2                      1.0.8-r5                apk     
 libc-utils                  0.7.2-r5                apk     
 libcrypto1.1                1.1.1u-r1               apk     
-libcrypto3                  3.1.2-r0                apk     
+libcrypto3                  3.1.3-r0                apk     
 libcurl                     8.2.1-r0                apk     
 libexpat                    2.5.0-r1                apk     
 libffi                      3.4.4-r2                apk     
@@ -75,7 +75,7 @@ libncursesw                 6.4_p20230506-r0        apk
 libpanelw                   6.4_p20230506-r0        apk     
 libproc2                    4.0.4-r0                apk     
 libssl1.1                   1.1.1u-r1               apk     
-libssl3                     3.1.2-r0                apk     
+libssl3                     3.1.3-r0                apk     
 libstdc++                   12.2.1_git20220924-r10  apk     
 libunistring                1.1-r1                  apk     
 libxml2                     2.11.4-r0               apk     
@@ -113,7 +113,7 @@ python3-pyc                 3.11.5-r0               apk
 python3-pycache-pyc0        3.11.5-r0               apk     
 pytz                        2023.3.post1            python  
 qbittorrent-api             2023.9.53               python  
-rarfile                     4.0                     python  
+rarfile                     4.1                     python  
 readline                    8.2.1-r1                apk     
 rebulk                      3.2.0                   python  
 requests                    2.31.0                  python  
@@ -136,9 +136,9 @@ tmdbsimple                  2.9.1                   python
 tornado                     6.3.3                   python  
 tus.py                      1.3.4                   python  
 tvdbsimple                  1.0.6                   python  
-typing_extensions           4.7.1                   python  
+typing_extensions           4.8.0                   python  
 tzdata                      2023c-r1                apk     
-urllib3                     2.0.4                   python  
+urllib3                     2.0.5                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 validators                  0.20.0                  python  
 wheel                       0.41.2                  python  
