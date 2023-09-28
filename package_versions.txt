@@ -10,7 +10,7 @@ PyNaCl                      1.5.0                   python
 SQLAlchemy                  2.0.21                  python  
 Send2Trash                  1.8.2                   python  
 Simple Launcher Executable  1.1.0.14                dotnet  
-Unidecode                   1.3.6                   python  
+Unidecode                   1.3.7                   python  
 alpine-baselayout           3.4.3-r1                apk     
 alpine-baselayout-data      3.4.3-r1                apk     
 alpine-keys                 2.4-r1                  apk     
@@ -37,7 +37,7 @@ click                       8.1.7                   python
 configobj                   5.0.8                   python  
 coreutils                   9.3-r1                  apk     
 cryptography                41.0.4                  python  
-curl                        8.2.1-r0                apk     
+curl                        8.3.0-r0                apk     
 decorator                   5.1.1                   python  
 deluge-client               1.9.0                   python  
 dogpile.cache               1.2.2                   python  
@@ -61,7 +61,7 @@ libbz2                      1.0.8-r5                apk
 libc-utils                  0.7.2-r5                apk     
 libcrypto1.1                1.1.1u-r1               apk     
 libcrypto3                  3.1.3-r0                apk     
-libcurl                     8.2.1-r0                apk     
+libcurl                     8.3.0-r0                apk     
 libexpat                    2.5.0-r1                apk     
 libffi                      3.4.4-r2                apk     
 libgcc                      12.2.1_git20220924-r10  apk     
@@ -85,7 +85,7 @@ linux-pam                   1.5.2-r10               apk
 lxml                        4.9.3                   python  
 markdown2                   2.4.10                  python  
 mpdecimal                   2.5.1-r2                apk     
-msgpack                     1.0.5                   python  
+msgpack                     1.0.6                   python  
 musl                        1.2.4-r1                apk     
 musl-utils                  1.2.4-r1                apk     
 ncurses-terminfo-base       6.4_p20230506-r0        apk     
