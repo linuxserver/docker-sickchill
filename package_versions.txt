@@ -86,8 +86,8 @@ lxml                        4.9.3                   python
 markdown2                   2.4.10                  python  
 mpdecimal                   2.5.1-r2                apk     
 msgpack                     1.0.7                   python  
-musl                        1.2.4-r1                apk     
-musl-utils                  1.2.4-r1                apk     
+musl                        1.2.4-r2                apk     
+musl-utils                  1.2.4-r2                apk     
 ncurses-terminfo-base       6.4_p20230506-r0        apk     
 netcat-openbsd              1.219-r1                apk     
 new-rtorrent-python         1.0.1a0                 python  
