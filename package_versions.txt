@@ -31,7 +31,7 @@ cacheyou                    23.3                    python
 certifi                     2023.7.22               python  
 cffi                        1.16.0                  python  
 chardet                     5.2.0                   python  
-charset-normalizer          3.3.1                   python  
+charset-normalizer          3.3.2                   python  
 cinemagoer                  2023.5.1                python  
 click                       8.1.7                   python  
 configobj                   5.0.8                   python  
@@ -141,7 +141,7 @@ tzdata                      2023c-r1                apk
 urllib3                     2.0.7                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 validators                  0.20.0                  python  
-wheel                       0.41.2                  python  
+wheel                       0.41.3                  python  
 win-inet-pton               1.1.0                   python  
 wrapt                       1.15.0                  python  
 xmltodict                   0.13.0                  python  
