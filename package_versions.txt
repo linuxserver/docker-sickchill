@@ -28,7 +28,7 @@ busybox-binsh             1.36.1-r5               apk
 ca-certificates           20230506-r0             apk     
 ca-certificates-bundle    20230506-r0             apk     
 cacheyou                  23.3                    python  
-certifi                   2023.7.22               python  
+certifi                   2023.11.17              python  
 cffi                      1.16.0                  python  
 chardet                   5.2.0                   python  
 charset-normalizer        3.3.2                   python  
@@ -78,7 +78,7 @@ libssl1.1                 1.1.1u-r1               apk
 libssl3                   3.1.4-r1                apk     
 libstdc++                 12.2.1_git20220924-r10  apk     
 libunistring              1.1-r1                  apk     
-libxml2                   2.11.4-r0               apk     
+libxml2                   2.11.6-r0               apk     
 libxslt                   1.1.38-r0               apk     
 libzen                    0.4.41-r0               apk     
 linux-pam                 1.5.2-r10               apk     
@@ -112,7 +112,7 @@ python3-fanart            2.0.0                   python
 python3-pyc               3.11.6-r0               apk     
 python3-pycache-pyc0      3.11.6-r0               apk     
 pytz                      2023.3.post1            python  
-qbittorrent-api           2023.11.55              python  
+qbittorrent-api           2023.11.56              python  
 rarfile                   4.1                     python  
 readline                  8.2.1-r1                apk     
 rebulk                    3.2.0                   python  
