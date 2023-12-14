@@ -37,7 +37,7 @@ click                     8.1.7                   python
 configobj                 5.0.8                   python  
 coreutils                 9.3-r1                  apk     
 cryptography              41.0.7                  python  
-curl                      8.4.0-r0                apk     
+curl                      8.5.0-r0                apk     
 decorator                 5.1.1                   python  
 deluge-client             1.9.0                   python  
 dogpile.cache             1.2.2                   python  
@@ -45,13 +45,13 @@ enzyme                    0.4.1                   python
 future                    0.18.3                  python  
 gdbm                      1.23-r1                 apk     
 gntp                      1.0.3                   python  
-greenlet                  3.0.1                   python  
+greenlet                  3.0.2                   python  
 guessit                   3.7.1                   python  
 idna                      3.6                     python  
 ifaddr                    0.2.0                   python  
 imagesize                 1.4.1                   python  
 ipaddress                 1.0.23                  python  
-jq                        1.6-r3                  apk     
+jq                        1.6-r4                  apk     
 jsonrpclib-pelix          0.4.3.2                 python  
 kodipydent-alt            2022.9.3                python  
 libacl                    2.3.1-r3                apk     
@@ -61,7 +61,7 @@ libbz2                    1.0.8-r5                apk
 libc-utils                0.7.2-r5                apk     
 libcrypto1.1              1.1.1u-r1               apk     
 libcrypto3                3.1.4-r1                apk     
-libcurl                   8.4.0-r0                apk     
+libcurl                   8.5.0-r0                apk     
 libexpat                  2.5.0-r1                apk     
 libffi                    3.4.4-r2                apk     
 libgcc                    12.2.1_git20220924-r10  apk     
@@ -136,7 +136,7 @@ tmdbsimple                2.9.1                   python
 tornado                   6.4                     python  
 tus.py                    1.3.4                   python  
 tvdbsimple                1.0.6                   python  
-typing_extensions         4.8.0                   python  
+typing_extensions         4.9.0                   python  
 tzdata                    2023c-r1                apk     
 urllib3                   2.1.0                   python  
 utmps-libs                0.1.2.1-r1              apk     
