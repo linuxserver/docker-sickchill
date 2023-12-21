@@ -40,13 +40,13 @@ cryptography              41.0.7                  python
 curl                      8.5.0-r0                apk     
 decorator                 5.1.1                   python  
 deluge-client             1.9.0                   python  
-dogpile.cache             1.2.2                   python  
+dogpile.cache             1.3.0                   python  
 enzyme                    0.4.1                   python  
 future                    0.18.3                  python  
 gdbm                      1.23-r1                 apk     
 gntp                      1.0.3                   python  
 greenlet                  3.0.2                   python  
-guessit                   3.7.1                   python  
+guessit                   3.8.0                   python  
 idna                      3.6                     python  
 ifaddr                    0.2.0                   python  
 imagesize                 1.4.1                   python  
@@ -82,8 +82,8 @@ libxml2                   2.11.6-r0               apk
 libxslt                   1.1.38-r0               apk     
 libzen                    0.4.41-r0               apk     
 linux-pam                 1.5.2-r10               apk     
-lxml                      4.9.3                   python  
-markdown2                 2.4.11                  python  
+lxml                      4.9.4                   python  
+markdown2                 2.4.12                  python  
 mpdecimal                 2.5.1-r2                apk     
 msgpack                   1.0.7                   python  
 musl                      1.2.4-r2                apk     
@@ -96,7 +96,7 @@ oauthlib                  3.2.2                   python
 oniguruma                 6.9.8-r1                apk     
 packaging                 23.2                    python  
 pbr                       6.0.0                   python  
-pip                       23.3.1                  python  
+pip                       23.3.2                  python  
 procps-ng                 4.0.4-r0                apk     
 profilehooks              1.12.0                  python  
 putio.py                  8.7.0                   python  
