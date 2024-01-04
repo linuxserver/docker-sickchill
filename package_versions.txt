@@ -7,7 +7,7 @@ PyGithub                1.59.1                  python
 PyJWT                   2.8.0                   python  
 PyNMA                   1.0                     python  
 PyNaCl                  1.5.0                   python  
-SQLAlchemy              2.0.23                  python  
+SQLAlchemy              2.0.25                  python  
 Send2Trash              1.8.2                   python  
 Simple Launcher         1.1.0.14                dotnet  
 Unidecode               1.3.7                   python  
@@ -82,7 +82,7 @@ libxml2                 2.11.6-r0               apk
 libxslt                 1.1.38-r0               apk     
 libzen                  0.4.41-r0               apk     
 linux-pam               1.5.2-r10               apk     
-lxml                    4.9.4                   python  
+lxml                    5.0.0                   python  
 markdown2               2.4.12                  python  
 mpdecimal               2.5.1-r2                apk     
 msgpack                 1.0.7                   python  
@@ -137,7 +137,7 @@ tornado                 6.4                     python
 tus.py                  1.3.4                   python  
 tvdbsimple              1.0.6                   python  
 typing_extensions       4.9.0                   python  
-tzdata                  2023c-r1                apk     
+tzdata                  2023d-r0                apk     
 urllib3                 2.1.0                   python  
 utmps-libs              0.1.2.1-r1              apk     
 validators              0.20.0                  python  
