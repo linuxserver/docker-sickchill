@@ -1,8 +1,8 @@
 NAME                    VERSION                 TYPE   
 CacheControl            0.13.1                  python  
 Deprecated              1.2.14                  python  
-Mako                    1.3.0                   python  
-MarkupSafe              2.1.3                   python  
+Mako                    1.3.1                   python  
+MarkupSafe              2.1.4                   python  
 PyGithub                2.1.1                   python  
 PyJWT                   2.8.0                   python  
 PyNMA                   1.0                     python  
@@ -124,7 +124,7 @@ sickchill               2024.1.8.post3          python
 six                     1.16.0                  python  
 skalibs                 2.13.1.1-r1             apk     
 soupsieve               2.5                     python  
-sqlite-libs             3.41.2-r2               apk     
+sqlite-libs             3.41.2-r3               apk     
 ssl_client              1.36.1-r5               apk     
 stevedore               5.1.0                   python  
 subliminal              2.1.0                   python  
