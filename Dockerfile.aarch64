@@ -28,7 +28,6 @@ RUN \
   echo "**** install packages ****" && \
   apk add --no-cache \
     libmediainfo \
-    libssl1.1 \
     libxslt \
     python3 && \
   echo "**** install sickchill ****" && \
