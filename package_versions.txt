@@ -1,12 +1,8 @@
 NAME                    VERSION                TYPE   
-CacheControl            0.13.1                 python  
-Deprecated              1.2.14                 python  
+CacheControl            0.14.0                 python  
 Mako                    1.3.2                  python  
 MarkupSafe              2.1.5                  python  
-PyGithub                2.2.0                  python  
-PyJWT                   2.8.0                  python  
 PyNMA                   1.0                    python  
-PyNaCl                  1.5.0                  python  
 SQLAlchemy              2.0.27                 python  
 Send2Trash              1.8.2                  python  
 Simple Launcher         1.1.0.14               dotnet  
@@ -39,10 +35,10 @@ coreutils               9.4-r2                 apk
 coreutils-env           9.4-r2                 apk     
 coreutils-fmt           9.4-r2                 apk     
 coreutils-sha512sum     9.4-r2                 apk     
-cryptography            42.0.2                 python  
+cryptography            42.0.3                 python  
 curl                    8.5.0-r0               apk     
 decorator               5.1.1                  python  
-deluge-client           1.9.0                  python  
+deluge-client           1.10.0                 python  
 dogpile.cache           1.3.1                  python  
 enzyme                  0.4.1                  python  
 future                  0.18.3                 python  
@@ -122,7 +118,7 @@ requests-oauthlib       1.3.1                  python
 scanelf                 1.3.7-r2               apk     
 setuptools              65.5.0                 python  
 shadow                  4.14.2-r0              apk     
-sickchill               2024.2.2               python  
+sickchill               2024.2.17              python  
 six                     1.16.0                 python  
 skalibs                 2.14.0.1-r0            apk     
 soupsieve               2.5                    python  
@@ -144,7 +140,6 @@ utmps-libs              0.1.2.2-r0             apk
 validators              0.22.0                 python  
 wheel                   0.42.0                 python  
 win-inet-pton           1.1.0                  python  
-wrapt                   1.16.0                 python  
 xmltodict               0.13.0                 python  
 xz-libs                 5.4.5-r0               apk     
 zlib                    1.3.1-r0               apk     
