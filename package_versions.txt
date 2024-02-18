@@ -38,7 +38,7 @@ coreutils-sha512sum     9.4-r2                 apk
 cryptography            42.0.3                 python  
 curl                    8.5.0-r0               apk     
 decorator               5.1.1                  python  
-deluge-client           1.10.0                 python  
+deluge-client           1.10.2                 python  
 dogpile.cache           1.3.1                  python  
 enzyme                  0.4.1                  python  
 future                  0.18.3                 python  
@@ -118,7 +118,7 @@ requests-oauthlib       1.3.1                  python
 scanelf                 1.3.7-r2               apk     
 setuptools              65.5.0                 python  
 shadow                  4.14.2-r0              apk     
-sickchill               2024.2.17              python  
+sickchill               2024.2.18              python  
 six                     1.16.0                 python  
 skalibs                 2.14.0.1-r0            apk     
 soupsieve               2.5                    python  
@@ -135,7 +135,7 @@ tus.py                  1.3.4                  python
 tvdbsimple              1.0.6                  python  
 typing_extensions       4.9.0                  python  
 tzdata                  2024a-r0               apk     
-urllib3                 2.2.0                  python  
+urllib3                 2.2.1                  python  
 utmps-libs              0.1.2.2-r0             apk     
 validators              0.22.0                 python  
 wheel                   0.42.0                 python  
