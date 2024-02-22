@@ -35,13 +35,13 @@ coreutils               9.4-r2                 apk
 coreutils-env           9.4-r2                 apk     
 coreutils-fmt           9.4-r2                 apk     
 coreutils-sha512sum     9.4-r2                 apk     
-cryptography            42.0.3                 python  
+cryptography            42.0.4                 python  
 curl                    8.5.0-r0               apk     
 decorator               5.1.1                  python  
 deluge-client           1.10.2                 python  
-dogpile.cache           1.3.1                  python  
+dogpile.cache           1.3.2                  python  
 enzyme                  0.4.1                  python  
-future                  0.18.3                 python  
+future                  1.0.0                  python  
 gdbm                    1.23-r1                apk     
 gntp                    1.0.3                  python  
 greenlet                3.0.3                  python  
