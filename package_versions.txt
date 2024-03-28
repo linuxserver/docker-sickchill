@@ -3,7 +3,7 @@ CacheControl            0.14.0                 python
 Mako                    1.3.2                  python                   
 MarkupSafe              2.1.5                  python                   
 PyNMA                   1.0                    python                   
-SQLAlchemy              2.0.28                 python                   
+SQLAlchemy              2.0.29                 python                   
 Send2Trash              1.8.2                  python                   
 Simple Launcher         1.1.0.14               dotnet  (+5 duplicates)  
 Unidecode               1.3.8                  python                   
@@ -22,8 +22,8 @@ brotli-libs             1.1.0-r1               apk
 busybox                 1.36.1-r15             apk                      
 busybox-binsh           1.36.1-r15             apk                      
 c-ares                  1.24.0-r1              apk                      
-ca-certificates         20230506-r0            apk                      
-ca-certificates-bundle  20230506-r0            apk                      
+ca-certificates         20240226-r0            apk                      
+ca-certificates-bundle  20240226-r0            apk                      
 certifi                 2024.2.2               python                   
 cffi                    1.16.0                 python                   
 chardet                 5.2.0                  python                   
@@ -109,12 +109,12 @@ python3-fanart          2.0.0                  python
 python3-pyc             3.11.8-r0              apk                      
 python3-pycache-pyc0    3.11.8-r0              apk                      
 pytz                    2024.1                 python                   
-qbittorrent-api         2024.2.59              python                   
+qbittorrent-api         2024.3.60              python                   
 rarfile                 4.1                    python                   
 readline                8.2.1-r2               apk                      
 rebulk                  3.2.0                  python                   
 requests                2.31.0                 python                   
-requests-oauthlib       1.4.0                  python                   
+requests-oauthlib       2.0.0                  python                   
 scanelf                 1.3.7-r2               apk                      
 setuptools              65.5.0                 python                   
 shadow                  4.14.2-r0              apk                      
