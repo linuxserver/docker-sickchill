@@ -21,7 +21,7 @@ bencode.py              4.0.0                  python
 brotli-libs             1.1.0-r1               apk                      
 busybox                 1.36.1-r15             apk                      
 busybox-binsh           1.36.1-r15             apk                      
-c-ares                  1.24.0-r1              apk                      
+c-ares                  1.27.0-r0              apk                      
 ca-certificates         20240226-r0            apk                      
 ca-certificates-bundle  20240226-r0            apk                      
 certifi                 2024.2.2               python                   
@@ -79,7 +79,7 @@ libxml2                 2.11.7-r0              apk
 libxslt                 1.1.39-r0              apk                      
 libzen                  0.4.41-r0              apk                      
 linux-pam               1.5.3-r7               apk                      
-lxml                    5.1.0                  python                   
+lxml                    5.2.1                  python                   
 markdown2               2.4.13                 python                   
 mpdecimal               2.5.1-r2               apk                      
 msgpack                 1.0.8                  python                   
@@ -99,7 +99,7 @@ profilehooks            1.12.0                 python
 putio.py                8.7.0                  python                   
 pyOpenSSL               24.1.0                 python                   
 pyc                     3.11.8-r0              apk                      
-pycparser               2.21                   python                   
+pycparser               2.22                   python                   
 pysrt                   1.1.2                  python                   
 python-dateutil         2.9.0.post0            python                   
 python-slugify          8.0.4                  python                   
@@ -110,7 +110,7 @@ python3-pyc             3.11.8-r0              apk
 python3-pycache-pyc0    3.11.8-r0              apk                      
 pytz                    2024.1                 python                   
 qbittorrent-api         2024.3.60              python                   
-rarfile                 4.1                    python                   
+rarfile                 4.2                    python                   
 readline                8.2.1-r2               apk                      
 rebulk                  3.2.0                  python                   
 requests                2.31.0                 python                   
