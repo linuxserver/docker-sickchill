@@ -3,7 +3,7 @@ CacheControl            0.14.0                 python
 Mako                    1.3.3                  python                   
 MarkupSafe              2.1.5                  python                   
 PyNMA                   1.0                    python                   
-SQLAlchemy              2.0.29                 python                   
+SQLAlchemy              2.0.30                 python                   
 Send2Trash              1.8.3                  python                   
 Simple Launcher         1.1.0.14               dotnet  (+5 duplicates)  
 Unidecode               1.3.8                  python                   
@@ -24,6 +24,7 @@ busybox-binsh           1.36.1-r15             apk
 c-ares                  1.27.0-r0              apk                      
 ca-certificates         20240226-r0            apk                      
 ca-certificates-bundle  20240226-r0            apk                      
+catatonit               0.2.0-r0               apk                      
 certifi                 2024.2.2               python                   
 cffi                    1.16.0                 python                   
 chardet                 5.2.0                  python                   
@@ -35,11 +36,11 @@ coreutils               9.4-r2                 apk
 coreutils-env           9.4-r2                 apk                      
 coreutils-fmt           9.4-r2                 apk                      
 coreutils-sha512sum     9.4-r2                 apk                      
-cryptography            42.0.5                 python                   
+cryptography            42.0.7                 python                   
 curl                    8.5.0-r0               apk                      
 decorator               5.1.1                  python                   
 deluge-client           1.10.2                 python                   
-dogpile.cache           1.3.2                  python                   
+dogpile.cache           1.3.3                  python                   
 enzyme                  0.4.1                  python                   
 findutils               4.9.0-r5               apk                      
 future                  1.0.0                  python                   
