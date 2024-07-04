@@ -25,7 +25,7 @@ c-ares                  1.27.0-r0              apk
 ca-certificates         20240226-r0            apk                      
 ca-certificates-bundle  20240226-r0            apk                      
 catatonit               0.2.0-r0               apk                      
-certifi                 2024.6.2               python                   
+certifi                 2024.7.4               python                   
 cffi                    1.16.0                 python                   
 chardet                 5.2.0                  python                   
 charset-normalizer      3.3.2                  python                   
@@ -60,7 +60,7 @@ libattr                 2.5.1-r5               apk
 libbsd                  0.11.7-r3              apk                      
 libbz2                  1.0.8-r6               apk                      
 libc-utils              0.7.2-r5               apk                      
-libcrypto3              3.1.5-r0               apk                      
+libcrypto3              3.1.6-r0               apk                      
 libcurl                 8.5.0-r0               apk                      
 libexpat                2.6.2-r0               apk                      
 libffi                  3.4.4-r3               apk                      
@@ -74,7 +74,7 @@ libmediainfo            23.11-r0               apk
 libncursesw             6.4_p20231125-r0       apk                      
 libpanelw               6.4_p20231125-r0       apk                      
 libproc2                4.0.4-r0               apk                      
-libssl3                 3.1.5-r0               apk                      
+libssl3                 3.1.6-r0               apk                      
 libstdc++               13.2.1_git20231014-r0  apk                      
 libunistring            1.1-r2                 apk                      
 libxml2                 2.11.8-r0              apk                      
