@@ -14,19 +14,21 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
-  - {vol_path: "/downloads", vol_host_path: "/path/to/downloads", desc: "this will store any downloaded data on the docker host"}
-  - {vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "this will allow sickchill to view what you already have"}
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files"}
 param_usage_include_ports: true
 param_ports:
   - {external_port: "8081", internal_port: "8081", port_desc: "will map the container's port 8081 to port 8081 on the host"}
+opt_param_usage_include_vols: true
+opt_param_volumes:
+  - {vol_path: "/downloads", vol_host_path: "/path/to/downloads", desc: "this will store any downloaded data on the docker host"}
+  - {vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "this will allow sickchill to view what you already have"}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   Web interface is at `<your ip>:8081` , set paths for downloads, tv-shows to match docker mappings via the webui.
 # changelog
 changelogs:
-  - {date: "25.06.24:", desc: "Rebase to Alpine 3.20."}
+  - {date: "10.07.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "13.02.24:", desc: "Rebase to Alpine 3.19."}
   - {date: "07.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
   - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}

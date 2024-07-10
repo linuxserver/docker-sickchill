@@ -79,8 +79,8 @@ services:
       - TZ=Etc/UTC
     volumes:
       - /path/to/sickchill/config:/config
-      - /path/to/downloads:/downloads
-      - /path/to/tv:/tv
+      - /path/to/downloads:/downloads #optional
+      - /path/to/tv:/tv #optional
     ports:
       - 8081:8081
     restart: unless-stopped
@@ -96,8 +96,8 @@ docker run -d \
   -e TZ=Etc/UTC \
   -p 8081:8081 \
   -v /path/to/sickchill/config:/config \
-  -v /path/to/downloads:/downloads \
-  -v /path/to/tv:/tv \
+  -v /path/to/downloads:/downloads `#optional` \
+  -v /path/to/tv:/tv `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/sickchill:latest
 ```
@@ -277,7 +277,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **25.06.24:** - Rebase to Alpine 3.20.
+* **10.07.24:** - Rebase to Alpine 3.20.
 * **13.02.24:** - Rebase to Alpine 3.19.
 * **07.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar).
 * **10.08.23:** - Bump unrar to 6.2.10.
