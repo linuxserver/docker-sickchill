@@ -95,7 +95,7 @@ oauthlib                3.2.2                  python
 oniguruma               6.9.9-r0               apk                      
 packaging               23.2                   python                   
 pbr                     6.0.0                  python                   
-pip                     24.1.1                 python                   
+pip                     24.1.2                 python                   
 procps-ng               4.0.4-r0               apk                      
 profilehooks            1.12.0                 python                   
 putio.py                8.7.0                  python                   
