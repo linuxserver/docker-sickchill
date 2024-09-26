@@ -27,13 +27,13 @@ chardet                 5.2.0                  python
 charset-normalizer      3.3.2                  python                   
 cinemagoer              2023.5.1               python                   
 click                   8.1.7                  python                   
-configobj               5.0.8                  python                   
+configobj               5.0.9                  python                   
 coreutils               9.5-r1                 apk                      
 coreutils-env           9.5-r1                 apk                      
 coreutils-fmt           9.5-r1                 apk                      
 coreutils-sha512sum     9.5-r1                 apk                      
 cryptography            43.0.1                 python                   
-curl                    8.10.0-r0              apk                      
+curl                    8.9.1-r2               apk                      
 decorator               5.1.1                  python                   
 deluge-client           1.10.2                 python                   
 dogpile-cache           1.3.3                  python                   
@@ -42,7 +42,7 @@ findutils               4.9.0-r5               apk
 future                  1.0.0                  python                   
 gdbm                    1.23-r1                apk                      
 gntp                    1.0.3                  python                   
-greenlet                3.1.0                  python                   
+greenlet                3.1.1                  python                   
 guessit                 3.8.0                  python                   
 idna                    3.10                   python                   
 ifaddr                  0.2.0                  python                   
@@ -63,7 +63,7 @@ libattr                 2.5.2-r0               apk
 libbsd                  0.12.2-r0              apk                      
 libbz2                  1.0.8-r6               apk                      
 libcrypto3              3.3.2-r0               apk                      
-libcurl                 8.10.0-r0              apk                      
+libcurl                 8.9.1-r2               apk                      
 libexpat                2.6.3-r0               apk                      
 libffi                  3.4.6-r0               apk                      
 libgcc                  13.2.1_git20240309-r0  apk                      
