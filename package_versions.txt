@@ -16,7 +16,7 @@ bencode-py              4.0.0                  python
 brotli-libs             1.1.0-r2               apk                      
 busybox                 1.36.1-r29             apk                      
 busybox-binsh           1.36.1-r29             apk                      
-c-ares                  1.28.1-r0              apk                      
+c-ares                  1.33.1-r0              apk                      
 ca-certificates         20240705-r0            apk                      
 ca-certificates-bundle  20240705-r0            apk                      
 cachecontrol            0.14.0                 python                   
@@ -121,7 +121,7 @@ python3-fanart          2.0.0                  python
 python3-pyc             3.12.6-r0              apk                      
 python3-pycache-pyc0    3.12.6-r0              apk                      
 pytz                    2024.2                 python                   
-qbittorrent-api         2024.9.66              python                   
+qbittorrent-api         2024.9.67              python                   
 rarfile                 4.2                    python                   
 readline                8.2.10-r0              apk                      
 rebulk                  3.2.0                  python                   
