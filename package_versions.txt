@@ -24,7 +24,7 @@ catatonit               0.2.0-r0               apk
 certifi                 2024.8.30              python                   
 cffi                    1.17.1                 python                   
 chardet                 5.2.0                  python                   
-charset-normalizer      3.3.2                  python                   
+charset-normalizer      3.4.0                  python                   
 cinemagoer              2023.5.1               python                   
 click                   8.1.7                  python                   
 configobj               5.0.9                  python                   
@@ -86,8 +86,8 @@ libzen                  0.4.41-r0              apk
 linux-pam               1.6.0-r0               apk                      
 lxml                    5.3.0                  python                   
 mako                    1.3.5                  python                   
-markdown2               2.5.0                  python                   
-markupsafe              2.1.5                  python                   
+markdown2               2.5.1                  python                   
+markupsafe              3.0.1                  python                   
 more-itertools          10.3.0                 python                   
 mpdecimal               4.0.0-r0               apk                      
 msgpack                 1.1.0                  python                   
@@ -106,9 +106,9 @@ pbr                     6.1.0                  python
 pip                     24.2                   python                   
 platformdirs            4.2.2                  python                   
 procps-ng               4.0.4-r0               apk                      
-profilehooks            1.12.0                 python                   
+profilehooks            1.13.0                 python                   
 putio-py                8.7.0                  python                   
-pyc                     3.12.6-r0              apk                      
+pyc                     3.12.7-r0              apk                      
 pycparser               2.22                   python                   
 pynma                   1.0                    python                   
 pyopenssl               24.2.1                 python                   
@@ -116,10 +116,10 @@ pysrt                   1.1.2                  python
 python-dateutil         2.9.0.post0            python                   
 python-slugify          8.0.4                  python                   
 python-twitter          3.5                    python                   
-python3                 3.12.6-r0              apk                      
+python3                 3.12.7-r0              apk                      
 python3-fanart          2.0.0                  python                   
-python3-pyc             3.12.6-r0              apk                      
-python3-pycache-pyc0    3.12.6-r0              apk                      
+python3-pyc             3.12.7-r0              apk                      
+python3-pycache-pyc0    3.12.7-r0              apk                      
 pytz                    2024.2                 python                   
 qbittorrent-api         2024.9.67              python                   
 rarfile                 4.2                    python                   
@@ -158,7 +158,7 @@ validators              0.22.0                 python
 wheel                   0.43.0                 python                   
 wheel                   0.44.0                 python                   
 win-inet-pton           1.1.0                  python                   
-xmltodict               0.13.0                 python                   
+xmltodict               0.14.1                 python                   
 xz-libs                 5.6.2-r0               apk                      
 zipp                    3.19.2                 python                   
 zlib                    1.3.1-r1               apk                      
