@@ -32,7 +32,7 @@ coreutils               9.5-r1                 apk
 coreutils-env           9.5-r1                 apk                      
 coreutils-fmt           9.5-r1                 apk                      
 coreutils-sha512sum     9.5-r1                 apk                      
-cryptography            43.0.1                 python                   
+cryptography            43.0.3                 python                   
 curl                    8.9.1-r2               apk                      
 decorator               5.1.1                  python                   
 deluge-client           1.10.2                 python                   
@@ -62,7 +62,7 @@ libacl                  2.3.2-r0               apk
 libattr                 2.5.2-r0               apk                      
 libbsd                  0.12.2-r0              apk                      
 libbz2                  1.0.8-r6               apk                      
-libcrypto3              3.3.2-r0               apk                      
+libcrypto3              3.3.2-r1               apk                      
 libcurl                 8.9.1-r2               apk                      
 libexpat                2.6.3-r0               apk                      
 libffi                  3.4.6-r0               apk                      
@@ -77,7 +77,7 @@ libncursesw             6.4_p20240420-r1       apk
 libpanelw               6.4_p20240420-r1       apk                      
 libproc2                4.0.4-r0               apk                      
 libpsl                  0.21.5-r1              apk                      
-libssl3                 3.3.2-r0               apk                      
+libssl3                 3.3.2-r1               apk                      
 libstdc++               13.2.1_git20240309-r0  apk                      
 libunistring            1.2-r0                 apk                      
 libxml2                 2.12.7-r0              apk                      
@@ -85,9 +85,9 @@ libxslt                 1.1.39-r1              apk
 libzen                  0.4.41-r0              apk                      
 linux-pam               1.6.0-r0               apk                      
 lxml                    5.3.0                  python                   
-mako                    1.3.5                  python                   
+mako                    1.3.6                  python                   
 markdown2               2.5.1                  python                   
-markupsafe              3.0.1                  python                   
+markupsafe              3.0.2                  python                   
 more-itertools          10.3.0                 python                   
 mpdecimal               4.0.0-r0               apk                      
 msgpack                 1.1.0                  python                   
