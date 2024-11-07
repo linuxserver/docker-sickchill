@@ -19,7 +19,7 @@ busybox-binsh           1.36.1-r29             apk
 c-ares                  1.33.1-r0              apk                      
 ca-certificates         20240705-r0            apk                      
 ca-certificates-bundle  20240705-r0            apk                      
-cachecontrol            0.14.0                 python                   
+cachecontrol            0.14.1                 python                   
 catatonit               0.2.0-r0               apk                      
 certifi                 2024.8.30              python                   
 cffi                    1.17.1                 python                   
@@ -103,7 +103,7 @@ oniguruma               6.9.9-r0               apk
 packaging               23.2                   python                   
 packaging               24.1                   python                   
 pbr                     6.1.0                  python                   
-pip                     24.2                   python                   
+pip                     24.3.1                 python                   
 platformdirs            4.2.2                  python                   
 procps-ng               4.0.4-r0               apk                      
 profilehooks            1.13.0                 python                   
@@ -121,7 +121,7 @@ python3-fanart          2.0.0                  python
 python3-pyc             3.12.7-r0              apk                      
 python3-pycache-pyc0    3.12.7-r0              apk                      
 pytz                    2024.2                 python                   
-qbittorrent-api         2024.9.67              python                   
+qbittorrent-api         2024.10.68             python                   
 rarfile                 4.2                    python                   
 readline                8.2.10-r0              apk                      
 rebulk                  3.2.0                  python                   
@@ -129,7 +129,7 @@ requests                2.32.3                 python
 requests-oauthlib       2.0.0                  python                   
 scanelf                 1.3.7-r2               apk                      
 send2trash              1.8.3                  python                   
-setuptools              75.2.0                 python                   
+setuptools              75.3.0                 python                   
 shadow                  4.15.1-r0              apk                      
 sickchill               2024.3.1               python                   
 six                     1.16.0                 python                   
