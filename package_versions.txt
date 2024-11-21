@@ -120,7 +120,7 @@ python3-fanart          2.0.0                  python
 python3-pyc             3.12.7-r0              apk                      
 python3-pycache-pyc0    3.12.7-r0              apk                      
 pytz                    2024.2                 python                   
-qbittorrent-api         2024.10.68             python                   
+qbittorrent-api         2024.11.70             python                   
 rarfile                 4.2                    python                   
 readline                8.2.10-r0              apk                      
 rebulk                  3.2.0                  python                   
@@ -128,7 +128,7 @@ requests                2.32.3                 python
 requests-oauthlib       2.0.0                  python                   
 scanelf                 1.3.7-r2               apk                      
 send2trash              1.8.3                  python                   
-setuptools              75.5.0                 python                   
+setuptools              75.6.0                 python                   
 shadow                  4.15.1-r0              apk                      
 sickchill               2024.3.1               python                   
 six                     1.16.0                 python                   
@@ -137,7 +137,7 @@ soupsieve               2.6                    python
 sqlalchemy              2.0.36                 python                   
 sqlite-libs             3.45.3-r1              apk                      
 ssl_client              1.36.1-r29             apk                      
-stevedore               5.3.0                  python                   
+stevedore               5.4.0                  python                   
 subliminal              2.1.0                  python                   
 text-unidecode          1.3                    python                   
 timeago                 1.0.16                 python                   
