@@ -26,6 +26,49 @@ opt_param_volumes:
 app_setup_block_enabled: true
 app_setup_block: |
   Web interface is at `<your ip>:8081` , set paths for downloads, tv-shows to match docker mappings via the webui.
+# init diagram
+init_diagram: |
+  "sickchill:latest": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-os-end -> init-config
+    init-config -> init-config-end
+    init-sickchill-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-config -> init-sickchill-config
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-sickchill
+    svc-sickchill -> legacy-services
+  }
+  Base Images: {
+    "baseimage-alpine:3.20"
+  }
+  "sickchill:latest" <- Base Images
 # changelog
 changelogs:
   - {date: "10.07.24:", desc: "Rebase to Alpine 3.20."}
