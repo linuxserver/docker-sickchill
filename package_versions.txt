@@ -3,7 +3,7 @@ Simple Launcher         1.1.0.14               dotnet  (+5 duplicates)
 alpine-baselayout       3.6.5-r0               apk                      
 alpine-baselayout-data  3.6.5-r0               apk                      
 alpine-keys             2.4-r1                 apk                      
-alpine-release          3.20.3-r0              apk                      
+alpine-release          3.20.5-r0              apk                      
 apk-tools               2.14.4-r1              apk                      
 appdirs                 1.4.4                  python                   
 autocommand             2.2.2                  python                   
@@ -17,8 +17,8 @@ brotli-libs             1.1.0-r2               apk
 busybox                 1.36.1-r29             apk                      
 busybox-binsh           1.36.1-r29             apk                      
 c-ares                  1.33.1-r0              apk                      
-ca-certificates         20241121-r0            apk                      
-ca-certificates-bundle  20241121-r0            apk                      
+ca-certificates         20241121-r1            apk                      
+ca-certificates-bundle  20241121-r1            apk                      
 cachecontrol            0.14.2                 python                   
 catatonit               0.2.0-r0               apk                      
 certifi                 2024.12.14             python                   
@@ -28,10 +28,10 @@ charset-normalizer      3.4.1                  python
 cinemagoer              2023.5.1               python                   
 click                   8.1.8                  python                   
 configobj               5.0.9                  python                   
-coreutils               9.5-r1                 apk                      
-coreutils-env           9.5-r1                 apk                      
-coreutils-fmt           9.5-r1                 apk                      
-coreutils-sha512sum     9.5-r1                 apk                      
+coreutils               9.5-r2                 apk                      
+coreutils-env           9.5-r2                 apk                      
+coreutils-fmt           9.5-r2                 apk                      
+coreutils-sha512sum     9.5-r2                 apk                      
 cryptography            44.0.0                 python                   
 curl                    8.11.1-r0              apk                      
 decorator               5.1.1                  python                   
@@ -41,6 +41,7 @@ enzyme                  0.4.1                  python
 findutils               4.9.0-r5               apk                      
 future                  1.0.0                  python                   
 gdbm                    1.23-r1                apk                      
+gmp                     6.3.0-r1               apk                      
 gntp                    1.0.3                  python                   
 greenlet                3.1.1                  python                   
 guessit                 3.8.0                  python                   
@@ -134,7 +135,7 @@ sickchill               2024.3.1               python
 six                     1.17.0                 python                   
 skalibs                 2.14.1.1-r0            apk                      
 soupsieve               2.6                    python                   
-sqlalchemy              2.0.36                 python                   
+sqlalchemy              2.0.37                 python                   
 sqlite-libs             3.45.3-r1              apk                      
 ssl_client              1.36.1-r29             apk                      
 stevedore               5.4.0                  python                   
