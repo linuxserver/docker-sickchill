@@ -36,7 +36,7 @@ cryptography            44.0.0                 python
 curl                    8.11.1-r0              apk                      
 decorator               5.1.1                  python                   
 deluge-client           1.10.2                 python                   
-dogpile-cache           1.3.3                  python                   
+dogpile-cache           1.3.4                  python                   
 enzyme                  0.4.1                  python                   
 findutils               4.9.0-r5               apk                      
 future                  1.0.0                  python                   
@@ -86,7 +86,7 @@ libzen                  0.4.41-r0              apk
 linux-pam               1.6.0-r0               apk                      
 lxml                    5.3.0                  python                   
 mako                    1.3.8                  python                   
-markdown2               2.5.2                  python                   
+markdown2               2.5.3                  python                   
 markupsafe              3.0.2                  python                   
 more-itertools          10.3.0                 python                   
 mpdecimal               4.0.0-r0               apk                      
@@ -103,7 +103,7 @@ oniguruma               6.9.9-r0               apk
 packaging               23.2                   python                   
 packaging               24.2                   python                   
 pbr                     6.1.0                  python                   
-pip                     24.3.1                 python                   
+pip                     25.0                   python                   
 platformdirs            4.2.2                  python                   
 procps-ng               4.0.4-r0               apk                      
 profilehooks            1.13.0                 python                   
