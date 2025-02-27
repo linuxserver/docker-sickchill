@@ -34,7 +34,7 @@ coreutils-fmt           9.5-r2                 apk
 coreutils-sha512sum     9.5-r2                 apk                      
 cryptography            44.0.1                 python                   
 curl                    8.12.1-r0              apk                      
-decorator               5.1.1                  python                   
+decorator               5.2.1                  python                   
 deluge-client           1.10.2                 python                   
 dogpile-cache           1.3.4                  python                   
 enzyme                  0.4.1                  python                   
@@ -66,7 +66,7 @@ libcrypto3              3.3.3-r0               apk
 libcurl                 8.12.1-r0              apk                      
 libexpat                2.6.4-r0               apk                      
 libffi                  3.4.6-r0               apk                      
-libgcc                  13.2.1_git20240309-r0  apk                      
+libgcc                  13.2.1_git20240309-r1  apk                      
 libgcrypt               1.10.3-r0              apk                      
 libgpg-error            1.49-r0                apk                      
 libidn2                 2.3.7-r0               apk                      
@@ -78,7 +78,7 @@ libpanelw               6.4_p20240420-r2       apk
 libproc2                4.0.4-r0               apk                      
 libpsl                  0.21.5-r1              apk                      
 libssl3                 3.3.3-r0               apk                      
-libstdc++               13.2.1_git20240309-r0  apk                      
+libstdc++               13.2.1_git20240309-r1  apk                      
 libunistring            1.2-r0                 apk                      
 libxml2                 2.12.7-r0              apk                      
 libxslt                 1.1.39-r1              apk                      
@@ -107,7 +107,7 @@ pip                     25.0.1                 python
 platformdirs            4.2.2                  python                   
 procps-ng               4.0.4-r0               apk                      
 profilehooks            1.13.0                 python                   
-putio-py                8.7.0                  python                   
+putio-py                8.8.0                  python                   
 pyc                     3.12.9-r0              apk                      
 pycparser               2.22                   python                   
 pynma                   1.0                    python                   
@@ -129,7 +129,7 @@ requests                2.32.3                 python
 requests-oauthlib       2.0.0                  python                   
 scanelf                 1.3.7-r2               apk                      
 send2trash              1.8.3                  python                   
-setuptools              75.8.0                 python                   
+setuptools              75.8.2                 python                   
 shadow                  4.15.1-r0              apk                      
 sickchill               2024.3.1               python                   
 six                     1.17.0                 python                   
@@ -138,7 +138,7 @@ soupsieve               2.6                    python
 sqlalchemy              2.0.38                 python                   
 sqlite-libs             3.45.3-r1              apk                      
 ssl_client              1.36.1-r29             apk                      
-stevedore               5.4.0                  python                   
+stevedore               5.4.1                  python                   
 subliminal              2.1.0                  python                   
 text-unidecode          1.3                    python                   
 timeago                 1.0.16                 python                   
