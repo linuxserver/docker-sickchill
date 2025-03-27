@@ -120,7 +120,7 @@ python3                 3.12.9-r0              apk
 python3-fanart          2.0.0                  python                   
 python3-pyc             3.12.9-r0              apk                      
 python3-pycache-pyc0    3.12.9-r0              apk                      
-pytz                    2025.1                 python                   
+pytz                    2025.2                 python                   
 qbittorrent-api         2024.12.71             python                   
 rarfile                 4.2                    python                   
 readline                8.2.10-r0              apk                      
@@ -129,7 +129,7 @@ requests                2.32.3                 python
 requests-oauthlib       2.0.0                  python                   
 scanelf                 1.3.7-r2               apk                      
 send2trash              1.8.3                  python                   
-setuptools              77.0.1                 python                   
+setuptools              78.1.0                 python                   
 shadow                  4.15.1-r0              apk                      
 sickchill               2024.3.1               python                   
 six                     1.17.0                 python                   
@@ -149,7 +149,8 @@ tornado                 6.4.2                  python
 tus-py                  1.3.4                  python                   
 tvdbsimple              1.0.6                  python                   
 typeguard               4.3.0                  python                   
-typing-extensions       4.12.2                 python  (+1 duplicate)   
+typing-extensions       4.12.2                 python                   
+typing-extensions       4.13.0                 python                   
 tzdata                  2025a-r0               apk                      
 unidecode               1.3.8                  python                   
 urllib3                 2.3.0                  python                   
