@@ -42,7 +42,7 @@ future                  1.0.0                  python
 gdbm                    1.23-r1                apk                     
 gmp                     6.3.0-r1               apk                     
 gntp                    1.0.3                  python                  
-greenlet                3.2.0                  python                  
+greenlet                3.2.1                  python                  
 guessit                 3.8.0                  python                  
 idna                    3.10                   python                  
 ifaddr                  0.2.0                  python                  
@@ -83,7 +83,7 @@ libxml2                 2.12.7-r2              apk
 libxslt                 1.1.39-r2              apk                     
 libzen                  0.4.41-r0              apk                     
 linux-pam               1.6.0-r0               apk                     
-lxml                    5.3.2                  python                  
+lxml                    5.4.0                  python                  
 mako                    1.3.10                 python                  
 markdown2               2.5.3                  python                  
 markupsafe              3.0.2                  python                  
@@ -128,12 +128,12 @@ requests                2.32.3                 python
 requests-oauthlib       2.0.0                  python                  
 scanelf                 1.3.7-r2               apk                     
 send2trash              1.8.3                  python                  
-setuptools              78.1.0                 python                  
+setuptools              79.0.1                 python                  
 shadow                  4.15.1-r0              apk                     
 sickchill               2024.3.1               python                  
 six                     1.17.0                 python                  
 skalibs                 2.14.1.1-r0            apk                     
-soupsieve               2.6                    python                  
+soupsieve               2.7                    python                  
 sqlalchemy              2.0.40                 python                  
 sqlite-libs             3.45.3-r2              apk                     
 ssl_client              1.36.1-r29             apk                     
