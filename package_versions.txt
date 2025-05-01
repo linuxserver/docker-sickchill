@@ -18,9 +18,9 @@ busybox-binsh           1.36.1-r29             apk
 c-ares                  1.33.1-r0              apk                     
 ca-certificates         20241121-r1            apk                     
 ca-certificates-bundle  20241121-r1            apk                     
-cachecontrol            0.14.2                 python                  
+cachecontrol            0.14.3                 python                  
 catatonit               0.2.0-r0               apk                     
-certifi                 2025.1.31              python                  
+certifi                 2025.4.26              python                  
 cffi                    1.17.1                 python                  
 chardet                 5.2.0                  python                  
 charset-normalizer      3.4.1                  python                  
@@ -35,7 +35,7 @@ cryptography            44.0.2                 python
 curl                    8.12.1-r0              apk                     
 decorator               5.2.1                  python                  
 deluge-client           1.10.2                 python                  
-dogpile-cache           1.3.4                  python                  
+dogpile-cache           1.4.0                  python                  
 enzyme                  0.4.1                  python                  
 findutils               4.9.0-r5               apk                     
 future                  1.0.0                  python                  
@@ -102,7 +102,7 @@ oniguruma               6.9.9-r0               apk
 packaging               23.2                   python                  
 packaging               24.2                   python                  
 pbr                     6.1.1                  python                  
-pip                     25.0.1                 python                  
+pip                     25.1                   python                  
 platformdirs            4.2.2                  python                  
 procps-ng               4.0.4-r0               apk                     
 profilehooks            1.13.0                 python                  
@@ -128,7 +128,7 @@ requests                2.32.3                 python
 requests-oauthlib       2.0.0                  python                  
 scanelf                 1.3.7-r2               apk                     
 send2trash              1.8.3                  python                  
-setuptools              79.0.1                 python                  
+setuptools              80.1.0                 python                  
 shadow                  4.15.1-r0              apk                     
 sickchill               2024.3.1               python                  
 six                     1.17.0                 python                  
@@ -151,7 +151,7 @@ typeguard               4.3.0                  python
 typing-extensions       4.12.2                 python                  
 typing-extensions       4.13.2                 python                  
 tzdata                  2025b-r0               apk                     
-unidecode               1.3.8                  python                  
+unidecode               1.4.0                  python                  
 urllib3                 2.4.0                  python                  
 utmps-libs              0.1.2.2-r1             apk                     
 validators              0.22.0                 python                  
