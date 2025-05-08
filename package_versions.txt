@@ -23,7 +23,7 @@ catatonit               0.2.0-r0               apk
 certifi                 2025.4.26              python                  
 cffi                    1.17.1                 python                  
 chardet                 5.2.0                  python                  
-charset-normalizer      3.4.1                  python                  
+charset-normalizer      3.4.2                  python                  
 cinemagoer              2023.5.1               python                  
 click                   8.1.8                  python                  
 configobj               5.0.9                  python                  
@@ -31,7 +31,7 @@ coreutils               9.5-r2                 apk
 coreutils-env           9.5-r2                 apk                     
 coreutils-fmt           9.5-r2                 apk                     
 coreutils-sha512sum     9.5-r2                 apk                     
-cryptography            44.0.2                 python                  
+cryptography            44.0.3                 python                  
 curl                    8.12.1-r0              apk                     
 decorator               5.2.1                  python                  
 deluge-client           1.10.2                 python                  
@@ -102,7 +102,7 @@ oniguruma               6.9.9-r0               apk
 packaging               23.2                   python                  
 packaging               24.2                   python                  
 pbr                     6.1.1                  python                  
-pip                     25.1                   python                  
+pip                     25.1.1                 python                  
 platformdirs            4.2.2                  python                  
 procps-ng               4.0.4-r0               apk                     
 profilehooks            1.13.0                 python                  
@@ -128,7 +128,7 @@ requests                2.32.3                 python
 requests-oauthlib       2.0.0                  python                  
 scanelf                 1.3.7-r2               apk                     
 send2trash              1.8.3                  python                  
-setuptools              80.1.0                 python                  
+setuptools              80.3.1                 python                  
 shadow                  4.15.1-r0              apk                     
 sickchill               2024.3.1               python                  
 six                     1.17.0                 python                  
