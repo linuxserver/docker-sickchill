@@ -106,7 +106,7 @@ ncurses-terminfo-base   6.4_p20240420-r2       apk
 netcat-openbsd          1.226-r0               apk                      
 new-rtorrent-python     1.0.1a0                python                   
 nghttp2-libs            1.62.1-r0              apk                      
-oauthlib                3.3.0                  python                   
+oauthlib                3.3.1                  python                   
 oniguruma               6.9.9-r0               apk                      
 packaging               23.2                   python                   
 packaging               24.2                   python                   
