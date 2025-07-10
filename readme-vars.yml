@@ -7,6 +7,7 @@ project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/ma
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is an Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_categories: "Media Management"
+project_deprecation_status: true
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
@@ -74,6 +75,7 @@ init_diagram: |
   "sickchill:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "10.07.25:", desc: "Deprecate."}
   - {date: "10.07.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "13.02.24:", desc: "Rebase to Alpine 3.19."}
   - {date: "07.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
