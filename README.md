@@ -24,6 +24,10 @@ Find us at:
 * [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
 * [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
+# DEPRECATION NOTICE 
+This image is deprecated. We will not offer support for this image and it will not be updated.
+
+
 # [linuxserver/sickchill](https://github.com/linuxserver/docker-sickchill)
 
 [![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fsickchill?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh)
@@ -278,6 +282,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.07.25:** - Deprecate.
 * **10.07.24:** - Rebase to Alpine 3.20.
 * **13.02.24:** - Rebase to Alpine 3.19.
 * **07.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar).
